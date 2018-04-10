@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ru-RU"> 
+	<head>
+		[[azbntple 
+			tpl="/src/block/site/default/head/.html" 
+			title=" "
+			description=" "
+		]] 		
+	</head>
+	<body class=""> 
+		[[azbntple 
+			tpl="/src/block/site/default/navbar/.html"
+			class="navbar-site scroll" 
+			navbar_prefix="navbar__"   
+			navbar_mod="  "   
+			navbar_scrollto="  "  
+			navbar_link=" /"
+		]]
+		[[azbntple  
+			tpl="/src/block/site/default/content/panel-portfolio-card.html"
+			content_prefix="content-block__"
+			content_mod="is--portfolio"
+			block_heading_mod="is--page-heading"
+			block_heading="{{portfolio.2018.korsun.name}}"   
+			block_desc1="{{portfolio.2018.korsun.desc1}}"  
+			block_maket="{{url-path-img}}/portfolio/{{portfolio.2018.korsun.maket}}"
+		]]
+		[[azbntple 
+			tpl="/src/block/site/default/footer/.html"
+			footer_prefix="footer__" 
+			block_id="index-footer"
+		]]		
+		[[azbntple tpl="/src/block/site/default/script/script.html" ]]
+	</body>
+</html>

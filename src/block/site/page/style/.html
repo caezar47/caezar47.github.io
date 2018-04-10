@@ -1,0 +1,80 @@
+<div role="main"> 
+	<div class="content-block__panel">
+		<div class="container content-block__container">
+			[[azbntple 
+				tpl="/src/block/site/default/breadcrumb/level1.html" 
+				bread_prefix="breadcrumb__"
+				bread_mod="is--center"
+				level_1="Страница стилей"
+			]]	                 
+			[[azbntple 
+				tpl="/src/block/site/default/page-header/heading.html" 
+				header_prefix="page-header__" 
+				header_mod="is--page-heading  is--center"
+				header_level="h1"
+				header="Страница стилей"
+			]]	
+			<div style="margin-bottom: 6vw;">
+				[[azbntple 
+					tpl="/src/block/site/default/page-header/heading.html" 
+					header_prefix="page-header__" 
+					header_mod="is--page-heading  is--center"
+					header_level="h1"
+					header="** Стиль заголовков **"
+				]]	
+				<h1>Заголовок H1</h1>
+				<h2>Заголовок H2</h2>
+				<h3>Заголовок H3</h3>
+				<h4>Заголовок H4</h4>
+				<h5>Заголовок H5</h5>
+				<h6>Заголовок H6</h6>
+			</div> 
+			<div style="margin-bottom: 6vw;">
+			[[azbntple 
+				tpl="/src/block/site/default/color/include.html" 
+				block_heading="** Палитра **"
+			]]
+			</div> 
+			<div style="margin-bottom: 6vw;">
+			[[azbntple 
+				tpl="/src/block/site/default/button/include.html" 
+				block_heading="** Стили кнопок **"
+			]]
+			</div> 	
+			<div style="margin-bottom: 6vw;">
+			[[azbntple 
+				tpl="/src/block/site/default/tabs/panel-about.html" 
+				block_prefix="tabs__"
+				block_mod="is--about"
+			]]
+			</div> 
+			<div style="margin-bottom: 6vw;">
+				<div class="row">
+					<div class="cols  is--cols-3">
+						[[azbntple 
+							tpl="/src/block/site/default/card/card-portfolio.html" 
+							block_prefix="card__"
+							block_mod="is--portfolio"
+							block_link="##"
+							block_preview="{{url-path-img}}/portfolio/2016-rkorma-825x550.png"
+							block_heading="Сайт для компании «Регион&nbsp;Корма»"
+						]]
+						
+					</div>
+				</div>
+			</div> 	
+			<div style="margin-bottom: 6vw;">
+				[[azbntple 
+					tpl="8/src/block/site/default/form/include.html" 
+					block_heading="** Форма **"
+				]]
+			</div>
+		</div>
+	</div>
+</div>		
+[[azbntple 
+	tpl="/src/block/site/default/modals/enter.html"
+	modals_prefix="modal-base__" 
+	modals_id="modal-enter"
+	modals_mod="is--enter"
+]]

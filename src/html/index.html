@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ru-RU"> 
+	<head>
+		[[azbntple 
+			tpl="/src/block/site/default/head/.html" 
+			title=" "
+			description=" "
+		]] 		
+	</head>
+	<body class="is--index-page"> 
+		[[azbntple 
+			tpl="/src/block/site/default/navbar/.html"
+			class="navbar-site scroll abs index"
+			navbar_prefix="navbar__"   
+			navbar_mod="  "   
+			navbar_scrollto="scrollto"  
+			navbar_link="  " 
+		]] 
+		[[azbntple 
+			tpl="/src/block/site/default/header/panel.html"
+			block_prefix="header-block__"
+			block_heading="Привет, Я&nbsp;-&nbsp;Сергей"
+			block_heading_small="Front-end разработчик"
+			block_id="index-header"
+		]]	
+		[[azbntple  
+			tpl="/src/block/site/default/content/panel-about.html"
+			content_prefix="content-block__"      
+			content_mod="is--about"      
+			block_heading_mod="is--page-heading  is--line"
+			block_heading="Обо мне"
+			block_id="index-about"   
+			block_heading_data="about"   
+		]]
+		[[azbntple  
+			tpl="/src/block/site/default/content/panel-portfolio-index.html"
+			content_prefix="content-block__"
+			content_mod="is--portfolio"
+			block_heading_mod="is--page-heading  is--line  is--portfolio-index"
+			block_heading="Портфолио"
+			block_id="index-portfolio"   
+			block_heading_data="portfolio"   
+		]]
+		[[azbntple 
+			tpl="/src/block/site/default/footer/.html"
+			footer_prefix="footer__" 
+			block_id="index-footer"
+		]]		
+		[[azbntple tpl="/src/block/site/default/script/script.html" ]] 
+	</body>
+</html>

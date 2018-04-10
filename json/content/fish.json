@@ -1,0 +1,438 @@
+{
+	"info":{
+		"logotip":"Front-end developer",
+		"name":"Иванов Сергей Сергеевич",
+		"name_en":"Sergey Ivanov",
+		"day":"03.04.1991&nbsp;г.",
+		"family":"Женат, есть ребенок",
+		"car":"Водительское удостоверение категорий В/С",
+		"smoke":"Без вредных привычек",
+		"quality":"Личные качества:",
+		"quality_text":"<ul class='is--style'><li>Ответственность</li><li>Настойчивость</li><li>Усидчивость</li><li>Заинтересованность</li><li>Эмоциональная устойчивость</li><li>Обучаемость</li></ul>",
+		"edu_spo_year":"2007 – 2011 гг.",   
+		"edu_spo":"<p><b>Технологический институт им. Н.Н. Поликарпова ФГБОУ ВПО Госуниверситет - УНПК.  Факультет: Среднее профессиональное образование.</b></p><p>Специальность: Программное обеспечение вычислительной техники и автоматизированных систем.</p><p>Специальность: техник.</p><p>Закончен с отличием.</p>", 
+		"edu_vpo_year":"2012 – 2016 гг.",   
+		"edu_vpo":"<p><b>Орловский филиал ФГБОУ ВПО «Российская академия народного хозяйства и государственной службы при Президенте Российской Федерации».</b></p><p>Направление: «Государственное и муниципальное управление».</p><p>Бакалавр</p><p>Закончен с отличием.</p>"
+	},
+	"contacts":{
+		"name":"beinternational",
+		"domain":"caezar47.github.io",
+		"domain_link":"https://caezar47.github.io/",
+		"agreement_page":"agreement",
+		"copyright":"",
+		"email":"iss47@ya.ru",
+		"phone":"+7 (910) 201-64-14",  
+		"phone_tel":"+79102016414"
+	},
+	"soc":{
+		"vk":"https://vk.com/caezar47",
+		"skype":"samozlo47",
+		"github":"https://github.com/caezar47",
+		"tm":"https://telegram.me/caezar47"
+	},
+	"page":{
+		"index":"/",
+		"portfolio":"/portfolio.html"
+	},	
+	"portfolio":{
+		"2018":{
+			"korsun":{
+				"link":"/korsun.html",
+				"name":"Сайт «Корсунская пустынь»",
+				"desc1":"Главная страница",
+				"site":"http://korsun-bm.ru/",
+				"preview":"korsun-preview.jpg",
+				"maket":"korsun-maket.jpg",
+				"filter":"filter-2018  filter-dev  filter-dd"
+			},
+			"interrao":{
+				"link":"/interrao.html",
+				"name":"Корпоративный сайт компании «Орловский&nbsp;энергосбыт»",
+				"desc1":"Главная страница",
+				"desc2":"Тарифы",
+				"desc3":"Контакты",
+				"site":"http://www.interrao-orel.ru/",
+				"preview":"interrao-preview.jpg",
+				"maket":"interrao-maket.jpg",
+				"maket2":"interrao-maket2.jpg",
+				"maket3":"interrao-maket3.jpg",
+				"filter":"filter-2018  filter-dev  filter-dd"
+			},
+			"superpizzaplus":{
+				"link":"/superpizzaplus.html",
+				"name":"Сайт пиццерии «Супер Пицца»",
+				"desc1":"Главная страница",
+				"desc2":"Калькулятор пиццы",
+				"desc3":"Корзина",
+				"site":"http://superpizzaplus.ru/",
+				"preview":"superpizzaplus-preview.jpg",
+				"maket":"superpizzaplus-maket.jpg",
+				"maket2":"superpizzaplus-maket2.jpg",
+				"maket3":"superpizzaplus-maket3.jpg",
+				"filter":"filter-2018  filter-dev  filter-dd"
+			}
+		},
+		"2017":{
+			"orion":{
+				"link":"/orion.html",
+				"name":"Сайт типографии Орион-Принт",
+				"site":"https://orel-print.ru/",
+				"preview":"orion-preview.jpg",
+				"maket":"orion-maket.jpg",
+				"filter":"filter-2017  filter-dd"
+			},
+			"albina":{
+				"link":"/albina.html",
+				"name":"Сайт центра красоты Альбины Самойловой",
+				"site":"http://albina.center/",
+				"preview":"albina-preview.jpg",
+				"maket":"albina-maket.jpg",
+				"filter":"filter-2017  filter-dd"
+			},
+			"yarus57":{
+				"link":"/yarus57.html",
+				"name":"Сайт студии ремонта «Ярус»",
+				"site":"http://yarus57.ru/",
+				"preview":"yarus57-preview.jpg",
+				"maket":"yarus57-maket.jpg",
+				"filter":"filter-2017  filter-dd"
+			},
+			"allfeed":{
+				"link":"/allfeed.html",
+				"name":"Сайт компании «Allfeed»",
+				"site":"http://allfeed.pro/",
+				"preview":"allfeed-preview.jpg",
+				"maket":"allfeed-maket.jpg",
+				"filter":"filter-2017  filter-dd"
+			},
+			"oblkadastr":{
+				"link":"/oblkadastr.html",
+				"name":"Корпоративный сайт для Областного кадастрового агентства",
+				"site":"http://oblkadastr.ru/",
+				"preview":"oblkadastr-preview.jpg",
+				"maket":"oblkadastr-maket.jpg",
+				"filter":"filter-2017  filter-dd"
+			},
+			"orelstroy":{
+				"link":"/orelstroy.html",
+				"name":"Корпоративный сайт для строительной компании «Орёлстрой»",
+				"site":"http://www.orelstroy.ru/",
+				"preview":"orelstroy-preview.jpg",
+				"maket":"orelstroy-maket.jpg",
+				"filter":"filter-2017  filter-dd"
+			},
+			"dixion":{
+				"link":"/dixion.html",
+				"name":"Корпоративный сайт для медицинского центра Dixion",
+				"site":"http://klinika-dixion.ru/",
+				"preview":"dixion-preview.jpg",
+				"maket":"dixion-maket.jpg",
+				"filter":"filter-2017  filter-dd"
+			},
+			"zenit-orel":{
+				"link":"/zenit-orel.html",
+				"name":"Корпоративный сайт для строительной компании «Зенит»",
+				"site":"https://zenit-orel.ru/",
+				"preview":"zenit-orel-preview.jpg",
+				"maket":"zenit-orel-maket.jpg",
+				"filter":"filter-2017  filter-dd"
+			},
+			"manikur57":{
+				"link":"/manikur57.html",
+				"name":"Сайт для ногтевого салона «Маникюр»",
+				"site":"http://manikur57.ru/",
+				"preview":"manikur57-preview.jpg",
+				"maket":"manikur57-maket.jpg",
+				"filter":"filter-2017  filter-dd"
+			},
+			"msk76":{
+				"link":"/msk76.html",
+				"name":"Сайт ЖК «Московсикий» компании «Зенит»",
+				"site":"http://msk76.ru/",
+				"preview":"msk76-preview.jpg",
+				"maket":"msk76-maket.jpg",
+				"filter":"filter-2017  filter-dd"
+			}
+		},
+		"2016":{
+			"roza33":{
+				"link":"/roza33.html",
+				"name":"Сайт ЖК «Роза» компании «Зенит»",
+				"site":"http://roza-33.ru/",
+				"preview":"roza33-preview.jpg",
+				"maket":"roza33-maket.jpg",
+				"filter":"filter-2016  filter-dd"
+			},
+			"intdez":{
+				"link":"/intdez.html",
+				"name":"Сайт cтудии дизайна Ирины Корчевой",
+				"site":"http://intdez.ru/",
+				"preview":"intdez-preview.jpg",
+				"maket":"intdez-maket.jpg",
+				"filter":"filter-2016  filter-dd"
+			},
+			"avista":{
+				"link":"/avista.html",
+				"name":"Сайт образовательного центра «Ависта»",
+				"site":"http://avista-center.ru/",
+				"preview":"avista-preview.jpg",
+				"maket":"avista-maket.jpg",
+				"filter":"filter-2016  filter-dd"
+			},
+			"amd":{
+				"link":"/amd.html",
+				"name":"Корпоративный сайт для инжиниринговой компании «АМД-технологии»",
+				"site":"http://amd-tech.ru/",
+				"preview":"amd-preview.jpg",
+				"maket":"amd-maket.jpg",
+				"filter":"filter-2016  filter-dd"
+			},
+			"encomservice":{
+				"link":"/encomservice.html",
+				"name":"Сайт сервисного цента «Энком Сервис»",
+				"site":"https://www.encomservice.ru/",
+				"preview":"encomservice-preview.jpg",
+				"maket":"encomservice-maket.jpg",
+				"filter":"filter-2016  filter-dd"
+			},
+			"enerfit":{
+				"link":"/enerfit.html",
+				"name":"Интернет-магазин энерфит.рф",
+				"site":"http://xn--e1agnnlk3d.xn--p1ai/",
+				"preview":"enerfit-preview.jpg",
+				"maket":"enerfit-maket.jpg",
+				"filter":"filter-2016  filter-dd"
+			},
+			"star":{
+				"link":"/star.html",
+				"name":"Фирменный сайт Звёздный-Тамбов.рф",
+				"site":"http://xn----8sbdbdigocv9ais6c8h.xn--p1ai/",
+				"preview":"star-preview.jpg",
+				"maket":"star-maket.jpg",
+				"filter":"filter-2016  filter-dd"
+			},
+			"chesterpub":{
+				"link":"/chesterpub.html",
+				"name":"Сайт для пивного ресторана «Честер Паб»",
+				"site":"http://chesterpub.ru/",
+				"preview":"chesterpub-preview.jpg",
+				"maket":"chesterpub-maket.jpg",
+				"filter":"filter-2016  filter-dd"
+			},
+			"rkorma":{
+				"link":"/rkorma.html",
+				"name":"Сайт для компании «Регион Корма»",
+				"site":"http://rkorma.ru/",
+				"preview":"rkorma-preview.jpg",
+				"maket":"rkorma-maket.jpg",
+				"filter":"filter-2016  filter-dd"
+			}
+		},
+		"2015":{
+			"perfect":{
+				"link":"/perfect.html",
+				"name":"Сайт для чешского агентства свадеб",
+				"site":"http://www.perfectweddingsevents.cz/",
+				"preview":"perfect-preview.jpg",
+				"maket":"perfect-maket.jpg",
+				"filter":"filter-2015  filter-ic"
+			},
+			"infoorel":{
+				"link":"/infoorel.html",
+				"name":"Сайт городского портала infoorel.ru",
+				"site":"http://www.infoorel.ru/",
+				"preview":"infoorel-preview.jpg",
+				"maket":"infoorel-maket.jpg",
+				"filter":"filter-2015  filter-ic"
+			},
+			"info-city":{
+				"link":"/info-city.html",
+				"name":"Сайт web-студии info-city",
+				"site":"https://info-city.su/",
+				"preview":"info-city-preview.jpg",
+				"maket":"info-city-maket.jpg",
+				"filter":"filter-2015  filter-ic"
+			},
+			"semena":{
+				"link":"/semena.html",
+				"name":"Интернет-магазин семян",
+				"site":"https://semena-bg.ru/",
+				"preview":"semena-preview.jpg",
+				"maket":"semena-maket.jpg",
+				"filter":"filter-2015  filter-ic"
+			},
+			"domservis57":{
+				"link":"/domservis57.html",
+				"name":"Сайт для УК «Домсервис»",
+				"site":"http://domservis57.ru/",
+				"preview":"domservis57-preview.jpg",
+				"maket":"domservis57-maket.jpg",
+				"filter":"filter-2015  filter-ic"
+			},
+			"novieokna":{
+				"link":"/novieokna.html",
+				"name":"Сайт для магазина ПВХ окон «Новые Окна»",
+				"site":"http://novieokna.ru/",
+				"preview":"novieokna-preview.jpg",
+				"maket":"novieokna-maket.jpg",
+				"filter":"filter-2015 filter-old  filter-ic"
+			},
+			"rdservis":{
+				"link":"/rdservis.html",
+				"name":"Корпоративный сайт для компании «Ремдорсервис»",
+				"site":"http://rdservis.ru/",
+				"preview":"rdservis-preview.jpg",
+				"maket":"rdservis-maket.jpg",
+				"filter":"filter-2015  filter-ic"
+			}
+		},
+		"2014":{
+			"orelkino":{
+				"link":"/orelkino.html",
+				"name":"Сайт для кинотеатра «Октябрь»",
+				"site":"http://orelkino.ru/",
+				"preview":"orelkino-preview.jpg",
+				"maket":"orelkino-maket.jpg",
+				"filter":"filter-2014  filter-old  filter-ic"
+			},
+			"chydopir":{
+				"link":"/chydopir.html",
+				"name":"Корпоративный сайт для сети ресторанов «Чудо-Пир»",
+				"site":"http://chydopir.ru/",
+				"preview":"chydopir-preview.jpg",
+				"maket":"chydopir-maket.jpg",
+				"filter":"filter-2014  filter-ic"
+			},
+			"dormash":{
+				"link":"/dormash.html",
+				"name":"Корпоративный сайт для завода «Дормаш»",
+				"site":"http://www.orel-dormash.ru/",
+				"preview":"dormash-preview.jpg",
+				"maket":"dormash-maket.jpg",
+				"filter":"filter-2014  filter-ic"
+			},
+			"autoorel":{
+				"link":"/autoorel.html",
+				"name":"Интернет-магазин запчастей Autoorel.ru",
+				"site":"#",
+				"preview":"autoorel-preview.jpg",
+				"maket":"autoorel-maket.jpg",
+				"filter":"filter-2014  filter-old  filter-ic"
+			},
+			"oltadi":{
+				"link":"/oltadi.html",
+				"name":"Интернет-магазин модной одежды «Oltadi Fashion»",
+				"site":"http://oltadi.ru/",
+				"preview":"oltadi-preview.jpg",
+				"maket":"oltadi-maket.jpg",
+				"filter":"filter-2014  filter-ic"
+			},
+			"slon":{
+				"link":"/slon.html",
+				"name":"Сайт для рекламного видеопроизводство «Синий слон»",
+				"site":"#",
+				"preview":"slon-preview.jpg",
+				"maket":"slon-maket.jpg",
+				"filter":"filter-2014  filter-old  filter-ic"
+			},
+			"altinbay":{
+				"link":"/altinbay.html",
+				"name":"Сайт для ресторана восточной кухни «Алтын Бай»",
+				"site":"#",
+				"preview":"altinbay-preview.jpg",
+				"maket":"altinbay-maket.jpg",
+				"filter":"filter-2014  filter-old  filter-ic"
+			},
+			"stroyproekt":{
+				"link":"/stroyproekt.html",
+				"name":"Сайт для проектной организации «Стройпроект»",
+				"site":"http://stroyproekt-orel.ru/",
+				"preview":"stroyproekt-preview.jpg",
+				"maket":"stroyproekt-maket.jpg",
+				"filter":"filter-2014  filter-ic"
+			},
+			"zenit-orel-old":{
+				"link":"/zenit-orel-old.html",
+				"name":"Корпоративный сайт для строительной компании «Зенит»",
+				"site":"https://zenit-orel.ru/",
+				"preview":"zenit-orel-old-preview.jpg",
+				"maket":"zenit-orel-old-maket.jpg",
+				"filter":"filter-2014  filter-old  filter-ic"
+			}
+		},
+		"2013":{
+			"noskiorel":{
+				"link":"/noskiorel.html",
+				"name":"Интернет-магазин для торгового дома «Гамма»",
+				"site":"http://noskiorel.ru/",
+				"preview":"noskiorel-preview.jpg",
+				"maket":"noskiorel-maket.jpg",
+				"filter":"filter-2013  filter-ic"
+			},
+			"enich":{
+				"link":"/enich.html",
+				"name":"Корпоративный сайт для компании «Енич»",
+				"site":"http://www.enich.ru/",
+				"preview":"enich-preview.jpg",
+				"maket":"enich-maket.jpg",
+				"filter":"filter-2013  filter-ic"
+			},
+			"olympicschool":{
+				"link":"/olympicschool.html",
+				"name":"Информационный портал для СДЮСШОР «Олимпиец»",
+				"site":"http://www.enich.ru/",
+				"preview":"olympicschool-preview.jpg",
+				"maket":"olympicschool-maket.jpg",
+				"filter":"filter-2013  filter-old  filter-ic"
+			},
+			"school36":{
+				"link":"/school36.html",
+				"name":"Сайт для СОШ № 36",
+				"site":"http://xn--36-8kc3bfr2e.xn--p1ai/",
+				"preview":"school36-preview.jpg",
+				"maket":"school36-maket.jpg",
+				"filter":"filter-2013  filter-ic"
+			},
+			"kadastr57":{
+				"link":"/kadastr57.html",
+				"name":"Сайт для компании «Объектив Лэнд»",
+				"site":"http://kadastr57.ru/",
+				"preview":"kadastr57-preview.jpg",
+				"maket":"kadastr57-maket.jpg",
+				"filter":"filter-2013  filter-ic"
+			},
+			"info-city-old":{
+				"link":"/info-city-old.html",
+				"name":"Сайт web-студии info-city",
+				"site":"https://info-city.su/",
+				"preview":"info-city-old-preview.jpg",
+				"maket":"info-city-old-maket.jpg",
+				"filter":"filter-2013  filter-old  filter-ic"
+			}
+		},
+		"2012":{
+			"rosto":{
+				"link":"/rosto.html",
+				"name":"Сайт для учебного центра ДОСААФ России",
+				"site":"http://www.rosto-orel.ru/",
+				"preview":"rosto-preview.jpg",
+				"maket":"rosto-maket.jpg",
+				"filter":"filter-2012  filter-old  filter-ic"
+			},
+			"classicstom":{
+				"link":"/classicstom.html",
+				"name":"Сайт для стоматологической клиники «Классик»",
+				"site":"http://classic-stom.ru/",
+				"preview":"classicstom-preview.jpg",
+				"maket":"classicstom-maket.jpg",
+				"filter":"filter-2012  filter-old  filter-ic"
+			}
+		}
+	},	                           
+	"url-path-css":"/css",
+	"url-path-img":"/img",
+	"url-path-js":"/js",
+	"url-path-plugins":"/plugins",
+	"url-path-docs":"/docs",
+	"url-path-favicon":"/favicon"
+}

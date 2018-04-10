@@ -1,0 +1,85 @@
+<div class="{{block_prefix}}block  {{block_mod}}">
+	<div class="{{block_prefix}}nav-wrap  {{block_mod}}">
+		<ul class="{{block_prefix}}nav  {{block_mod}}">
+			<li class="{{block_prefix}}item  {{block_mod}}  active">
+				<a class="{{block_prefix}}link  {{block_mod}}" href="#tab-personal" data-toggle="tab"><span>Л</span>ичные данные</a>
+			</li>
+			<li class="{{block_prefix}}item  {{block_mod}}">
+				<a class="{{block_prefix}}link  {{block_mod}}" href="#tab-education" data-toggle="tab"><span>О</span>бразование</a>
+			</li>
+			<li class="{{block_prefix}}item  {{block_mod}}">
+				<a class="{{block_prefix}}link  {{block_mod}}" href="#tab-experience" data-toggle="tab"><span>П</span>рофессиональный опыт</a>
+			</li>
+		</ul>
+	</div>
+	<div class="{{block_prefix}}tab-content  {{block_mod}}">
+		<div class="{{block_prefix}}tab-pane  active {{block_mod}}" id="tab-personal">		
+			<div class="{{content_prefix}}row row  is--tabs  is--wrap  is--gutter  {{content_mod}}">
+				<div class="{{content_prefix}}cols cols  is--cols-6  is--cols-sm-12  is--tabs  {{content_mod}}">				
+					[[azbntple 
+						tpl="/src/block/site/default/card/card-about-personal.html" 
+						block_prefix="card__"
+						block_mod="{{content_mod}}"
+						block_heading="{{info.day}}"
+						block_icon="icon-cake"
+					]]				
+					[[azbntple 
+						tpl="/src/block/site/default/card/card-about-personal.html" 
+						block_prefix="card__"
+						block_mod="{{content_mod}}"
+						block_heading="{{info.family}}"
+						block_icon="icon-family"
+					]]			
+					[[azbntple 
+						tpl="/src/block/site/default/card/card-about-personal.html" 
+						block_prefix="card__"
+						block_mod="{{content_mod}}"
+						block_heading="{{info.car}}"
+						block_icon="icon-car"
+					]]			
+					[[azbntple 
+						tpl="/src/block/site/default/card/card-about-personal.html" 
+						block_prefix="card__"
+						block_mod="{{content_mod}}"
+						block_heading="{{info.smoke}}"
+						block_icon="icon-smoke"
+					]]
+				</div>
+				<div class="{{content_prefix}}cols cols  is--cols-6  is--cols-sm-12  is--tabs  {{content_mod}}">		
+					[[azbntple 
+						tpl="/src/block/site/default/card/card-about-personal-list.html" 
+						block_prefix="card__"
+						block_mod="{{content_mod}}  is--list"
+						block_heading="{{info.quality}}"
+						block_text="{{info.quality_text}}"
+						block_icon="icon-quality"
+					]]					
+				</div>
+			</div>
+		</div>
+		<div class="{{block_prefix}}tab-pane  {{block_mod}}" id="tab-education">
+			<div class="{{content_prefix}}row row  is--wrap  is--gutter  {{content_mod}}">
+				<div class="{{content_prefix}}cols cols  is--cols-6  is--cols-sm-12  is--edu  is--left  {{content_mod}}">		
+					[[azbntple 
+						tpl="/src/block/site/default/card/card-about-education.html" 
+						block_prefix="card__"
+						block_mod="{{content_mod}}  is--edu"
+						block_heading="{{info.edu_spo_year}}"
+						block_text="{{info.edu_spo}}"
+					]]					
+				</div>
+				<div class="{{content_prefix}}cols cols  is--cols-6  is--cols-sm-12  is--edu  {{content_mod}}">		
+					[[azbntple 
+						tpl="/src/block/site/default/card/card-about-education.html" 
+						block_prefix="card__"
+						block_mod="{{content_mod}}  is--edu"
+						block_heading="{{info.edu_vpo_year}}"
+						block_text="{{info.edu_vpo}}"
+					]]						
+				</div>
+			</div>
+		</div>
+		<div class="{{block_prefix}}tab-pane  {{block_mod}}" id="tab-experience">
+		</div>
+	</div>
+</div>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ru-RU"> 
+	<head>
+		[[azbntple 
+			tpl="/src/block/site/default/head/.html" 
+			title=" "
+			description=" "
+		]] 		
+	</head>
+	<body class=""> 
+		[[azbntple 
+			tpl="/src/block/site/default/navbar/.html"
+			class="navbar-site scroll" 
+			navbar_prefix="navbar__"   
+			navbar_mod="  "   
+			navbar_scrollto="  "  
+			navbar_link=" /"
+		]]
+		[[azbntple  
+			tpl="/src/block/site/default/content/panel-portfolio-card-3.html"
+			content_prefix="content-block__"
+			content_mod="is--portfolio"
+			block_heading_mod="is--page-heading"
+			block_heading="{{portfolio.2018.superpizzaplus.name}}"   
+			block_desc1="{{portfolio.2018.superpizzaplus.desc1}}"   
+			block_desc2="{{portfolio.2018.superpizzaplus.desc2}}"   
+			block_desc3="{{portfolio.2018.superpizzaplus.desc3}}"   
+			block_maket="{{url-path-img}}/portfolio/{{portfolio.2018.superpizzaplus.maket}}"
+			block_maket2="{{url-path-img}}/portfolio/{{portfolio.2018.superpizzaplus.maket2}}"
+			block_maket3="{{url-path-img}}/portfolio/{{portfolio.2018.superpizzaplus.maket3}}"
+		]]
+		[[azbntple 
+			tpl="/src/block/site/default/footer/.html"
+			footer_prefix="footer__" 
+			block_id="index-footer"
+		]]		
+		[[azbntple tpl="/src/block/site/default/script/script.html" ]]
+	</body>
+</html>
