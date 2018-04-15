@@ -1,3 +1,61 @@
+.bg-block__{
+	&block{
+		overflow: hidden;
+		position: relative;
+	}
+	&container{
+		position: relative;
+		z-index: 5;
+	}
+	&item{
+		@media @media-point-device {display: none;}
+		position: absolute;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: contain;
+		z-index: 1;
+		&.is--plane-325x1370{
+			max-width: 325px;
+			max-height: 1370px;
+			width: 17vw;
+			height: 72vw;
+			right: 0;
+			top: 10vw;
+		}
+		&.is--plane-1800x990{
+			max-width: 1800px;
+			max-height: 990px;
+			width: 94vw;
+			height: 52vw;
+			right: 0;
+			top: -1vw;
+		}
+		&.is--plane-1835x1380{
+			max-width: 1835px;
+			max-height: 1380px;
+			width: 96vw;
+			height: 72vw;
+			right: 3vw;
+			top: -2vw;
+		}
+		&.is--plane-1865x1950{
+			max-width: 1865px;
+			max-height: 1950px;
+			width: 98vw;
+			height: 102vw;
+			right: 1.5vw;
+			top: 0.5vw;
+		}
+		&.is--plane-1800x1150{
+			max-width: 1800px;
+			max-height: 1150px;
+			width: 94vw;
+			height: 60vw;
+			right: 0;
+			top: -1vw;
+		}
+	}
+}
 .breadcrumb__{
 	@gutter: 10px;
 	@gutter_top: 5px;
@@ -69,64 +127,6 @@
 		right: 0px;
 		transform: translate(50%, -35%);
 	}*/
-}
-.bg-block__{
-	&block{
-		overflow: hidden;
-		position: relative;
-	}
-	&container{
-		position: relative;
-		z-index: 5;
-	}
-	&item{
-		@media @media-point-device {display: none;}
-		position: absolute;
-		background-repeat: no-repeat;
-		background-position: center;
-		background-size: contain;
-		z-index: 1;
-		&.is--plane-325x1370{
-			max-width: 325px;
-			max-height: 1370px;
-			width: 17vw;
-			height: 72vw;
-			right: 0;
-			top: 10vw;
-		}
-		&.is--plane-1800x990{
-			max-width: 1800px;
-			max-height: 990px;
-			width: 94vw;
-			height: 52vw;
-			right: 0;
-			top: -1vw;
-		}
-		&.is--plane-1835x1380{
-			max-width: 1835px;
-			max-height: 1380px;
-			width: 96vw;
-			height: 72vw;
-			right: 3vw;
-			top: -2vw;
-		}
-		&.is--plane-1865x1950{
-			max-width: 1865px;
-			max-height: 1950px;
-			width: 98vw;
-			height: 102vw;
-			right: 1.5vw;
-			top: 0.5vw;
-		}
-		&.is--plane-1800x1150{
-			max-width: 1800px;
-			max-height: 1150px;
-			width: 94vw;
-			height: 60vw;
-			right: 0;
-			top: -1vw;
-		}
-	}
 }
 .btn-base(){
 	text-transform: uppercase;
@@ -919,6 +919,23 @@
 			margin: 0 auto;
 		}
 		
+	}
+	&site{
+		&.is--portfolio{
+			display: inline-block;
+			position: relative;
+			padding-left: 45px; 
+		}
+	}
+	&site-icon{
+		&.is--portfolio{
+			position: absolute;
+			top: 50%;
+			left: 0;
+			transform: translateY(-50%);
+			width: 32px;
+			height: 32px;
+		}
 	}
 	&slick{
 		

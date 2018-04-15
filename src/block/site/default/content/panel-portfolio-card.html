@@ -7,7 +7,17 @@
 			header_level="h1"
 			header="{{block_heading}}"
 		]]
+		<div class="{{content_prefix}}elem  {{content_mod}}">
+			<a href="{{block_site}}" target="_blank" class="{{content_prefix}}site  {{content_mod}}">
+				<div class="{{content_prefix}}site-icon  {{content_mod}}">
+					[[azbntple tpl="/src/block/site/default/svg-sprite/.html" icon-name="icon-link" ]]
+				</div>
+				Перейти на сайт
+			</a>
+		</div>
 	</div>
+
+	
 	[[azbntple 
 		tpl="/src/block/site/default/page-header/heading.html" 
 		header_prefix="page-header__" 
