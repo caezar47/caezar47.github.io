@@ -12,7 +12,35 @@
 		"edu_spo_year":"2007 – 2011 гг.",   
 		"edu_spo":"<p><b>Технологический институт им. Н.Н. Поликарпова ФГБОУ ВПО Госуниверситет - УНПК.  Факультет: Среднее профессиональное образование.</b></p><p>Специальность: Программное обеспечение вычислительной техники и автоматизированных систем.</p><p>Специальность: техник.</p><p>Закончен с отличием.</p>", 
 		"edu_vpo_year":"2012 – 2016 гг.",   
-		"edu_vpo":"<p><b>Орловский филиал ФГБОУ ВПО «Российская академия народного хозяйства и государственной службы при Президенте Российской Федерации».</b></p><p>Направление: «Государственное и муниципальное управление».</p><p>Бакалавр</p><p>Закончен с отличием.</p>"
+		"edu_vpo":"<p><b>Орловский филиал ФГБОУ ВПО «Российская академия народного хозяйства и государственной службы при Президенте Российской Федерации».</b></p><p>Направление: «Государственное и муниципальное управление».</p><p>Бакалавр</p><p>Закончен с отличием.</p>",
+		"experience":{
+			"dd":{
+				"logo":"firm-dd",
+				"heading":"Студия дизайна Александра Дорохова г.&nbsp;Орёл",
+				"date":"январь 2016 – настоящее время",
+				"post":"Web-программист (front-end)",
+				"link":"http://dorohovdesign.ru/"
+			},
+			"ic2":{
+				"logo":"firm-ic",
+				"heading":"ООО «Инфо-сити» г.&nbsp;Орёл",
+				"date":"август 2013 – декабрь 2015",
+				"post":" Начальник IT-отдела"
+			},
+			"ic":{
+				"logo":"firm-ic",
+				"heading":"ООО «Инфо-сити» г.&nbsp;Орёл",
+				"date":"июнь 2012 – август 2013",
+				"post":"Web-программист (front-end)",
+				"link":"https://info-city.su/"
+			},
+			"unpk":{
+				"logo":"firm-unpk",
+				"heading":"Технологический институт им. Н.Н. Поликарпова ФГБОУ ВПО Госуниверситет - УНПК г.&nbsp;Орёл",
+				"date":"сентябрь 2011 – июнь 2012",
+				"post":"Техник (Контент-менеджер)"
+			}
+		}
 	},
 	"contacts":{
 		"name":"beinternational",
@@ -36,9 +64,32 @@
 	},	
 	"portfolio":{
 		"2018":{
+			"orelsau":{
+				"link":"/orelsau.html",
+				"name":"Сайт ФГБОУ ВО Орловский ГАУ",
+				"desc1":"Главная страница",
+				"desc2":"Факультеты",
+				"site":"http://www.orelsau.ru/",
+				"preview":"orelsau-preview.jpg",
+				"maket":"orelsau-maket.jpg",
+				"maket2":"orelsau-maket2.jpg",
+				"filter":"filter-2018  filter-dev  filter-dd"
+			},
+			"igeba":{
+				"link":"/igeba.html",
+				"name":"Промо сайты для компании «ИнтерКлин»",
+				"desc1":"Главная страница",
+				"site":"http://cow.interclean.ru/",
+				"site2":"http://fog.interclean.ru/",
+				"site3":"http://fog.interclean.ru/",
+				"site4":"http://fog.interclean.ru/",
+				"preview":"igeba-preview.jpg",
+				"maket":"igeba-cow-maket.jpg",
+				"filter":"filter-2018  filter-dd"
+			},
 			"korsun":{
 				"link":"/korsun.html",
-				"name":"Сайт «Корсунская пустынь»",
+				"name":"Сайт для «Корсунская пустынь»",
 				"desc1":"Главная страница",
 				"site":"http://korsun-bm.ru/",
 				"preview":"korsun-preview.jpg",
@@ -69,7 +120,7 @@
 				"maket":"superpizzaplus-maket.jpg",
 				"maket2":"superpizzaplus-maket2.jpg",
 				"maket3":"superpizzaplus-maket3.jpg",
-				"filter":"filter-2018  filter-dev  filter-dd"
+				"filter":"filter-2018  filter-dd"
 			}
 		},
 		"2017":{
@@ -235,6 +286,8 @@
 				"site":"http://www.perfectweddingsevents.cz/",
 				"preview":"perfect-preview.jpg",
 				"maket":"perfect-maket.jpg",
+				"desc":"Главная страница",
+				"github":"#",
 				"filter":"filter-2015  filter-ic"
 			},
 			"infoorel":{
@@ -243,6 +296,8 @@
 				"site":"http://www.infoorel.ru/",
 				"preview":"infoorel-preview.jpg",
 				"maket":"infoorel-maket.jpg",
+				"desc":"Главная страница",
+				"github":"#",
 				"filter":"filter-2015  filter-ic"
 			},
 			"info-city":{
@@ -251,6 +306,8 @@
 				"site":"https://info-city.su/",
 				"preview":"info-city-preview.jpg",
 				"maket":"info-city-maket.jpg",
+				"desc":"Главная страница",
+				"github":"#",
 				"filter":"filter-2015  filter-ic"
 			},
 			"semena":{
@@ -259,6 +316,8 @@
 				"site":"https://semena-bg.ru/",
 				"preview":"semena-preview.jpg",
 				"maket":"semena-maket.jpg",
+				"desc":"Главная страница",
+				"github":"#",
 				"filter":"filter-2015  filter-ic"
 			},
 			"domservis57":{
@@ -267,6 +326,8 @@
 				"site":"http://domservis57.ru/",
 				"preview":"domservis57-preview.jpg",
 				"maket":"domservis57-maket.jpg",
+				"desc":"Главная страница",
+				"github":"#",
 				"filter":"filter-2015  filter-ic"
 			},
 			"novieokna":{
@@ -274,7 +335,9 @@
 				"name":"Сайт для магазина ПВХ окон «Новые Окна»",
 				"site":"http://novieokna.ru/",
 				"preview":"novieokna-preview.jpg",
-				"maket":"novieokna-maket.jpg",
+				"maket":"novieokna-maket.png",
+				"desc":"Главная страница",
+				"github":"#",
 				"filter":"filter-2015 filter-old  filter-ic"
 			},
 			"rdservis":{
@@ -283,6 +346,8 @@
 				"site":"http://rdservis.ru/",
 				"preview":"rdservis-preview.jpg",
 				"maket":"rdservis-maket.jpg",
+				"desc":"Главная страница",
+				"github":"#",
 				"filter":"filter-2015  filter-ic"
 			}
 		},
@@ -292,7 +357,9 @@
 				"name":"Сайт для кинотеатра «Октябрь»",
 				"site":"http://orelkino.ru/",
 				"preview":"orelkino-preview.jpg",
-				"maket":"orelkino-maket.jpg",
+				"maket":"orelkino-maket.png",
+				"desc":"Главная страница",
+				"github":"#",
 				"filter":"filter-2014  filter-old  filter-ic"
 			},
 			"chydopir":{
@@ -301,6 +368,8 @@
 				"site":"http://chydopir.ru/",
 				"preview":"chydopir-preview.jpg",
 				"maket":"chydopir-maket.jpg",
+				"desc":"Главная страница",
+				"github":"#",
 				"filter":"filter-2014  filter-ic"
 			},
 			"dormash":{
@@ -309,6 +378,8 @@
 				"site":"http://www.orel-dormash.ru/",
 				"preview":"dormash-preview.jpg",
 				"maket":"dormash-maket.jpg",
+				"desc":"Главная страница",
+				"github":"#",
 				"filter":"filter-2014  filter-ic"
 			},
 			"autoorel":{
@@ -316,7 +387,9 @@
 				"name":"Интернет-магазин запчастей Autoorel.ru",
 				"site":"#",
 				"preview":"autoorel-preview.jpg",
-				"maket":"autoorel-maket.jpg",
+				"maket":"autoorel-maket.png",
+				"desc":"Главная страница",
+				"github":"#",
 				"filter":"filter-2014  filter-old  filter-ic"
 			},
 			"oltadi":{
@@ -325,6 +398,8 @@
 				"site":"http://oltadi.ru/",
 				"preview":"oltadi-preview.jpg",
 				"maket":"oltadi-maket.jpg",
+				"desc":"Главная страница",
+				"github":"#",
 				"filter":"filter-2014  filter-ic"
 			},
 			"slon":{
@@ -332,7 +407,9 @@
 				"name":"Сайт для рекламного видеопроизводство «Синий слон»",
 				"site":"#",
 				"preview":"slon-preview.jpg",
-				"maket":"slon-maket.jpg",
+				"maket":"slon-maket.png",
+				"desc":"Главная страница",
+				"github":"#",
 				"filter":"filter-2014  filter-old  filter-ic"
 			},
 			"altinbay":{
@@ -340,7 +417,9 @@
 				"name":"Сайт для ресторана восточной кухни «Алтын Бай»",
 				"site":"#",
 				"preview":"altinbay-preview.jpg",
-				"maket":"altinbay-maket.jpg",
+				"maket":"altinbay-maket.png",
+				"desc":"Главная страница",
+				"github":"#",
 				"filter":"filter-2014  filter-old  filter-ic"
 			},
 			"stroyproekt":{
@@ -349,6 +428,8 @@
 				"site":"http://stroyproekt-orel.ru/",
 				"preview":"stroyproekt-preview.jpg",
 				"maket":"stroyproekt-maket.jpg",
+				"desc":"Главная страница",
+				"github":"#",
 				"filter":"filter-2014  filter-ic"
 			},
 			"zenit-orel-old":{
@@ -356,7 +437,9 @@
 				"name":"Корпоративный сайт для строительной компании «Зенит»",
 				"site":"https://zenit-orel.ru/",
 				"preview":"zenit-orel-old-preview.jpg",
-				"maket":"zenit-orel-old-maket.jpg",
+				"maket":"zenit-orel-old-maket.png",
+				"desc":"Главная страница",
+				"github":"#",
 				"filter":"filter-2014  filter-old  filter-ic"
 			}
 		},
@@ -367,22 +450,28 @@
 				"site":"http://noskiorel.ru/",
 				"preview":"noskiorel-preview.jpg",
 				"maket":"noskiorel-maket.jpg",
+				"desc":"Главная страница",
+				"github":"#",
 				"filter":"filter-2013  filter-ic"
 			},
 			"enich":{
 				"link":"/enich.html",
 				"name":"Корпоративный сайт для компании «Енич»",
-				"site":"http://www.enich.ru/",
+				"site":"#",
 				"preview":"enich-preview.jpg",
-				"maket":"enich-maket.jpg",
-				"filter":"filter-2013  filter-ic"
+				"maket":"enich-maket.png",
+				"desc":"Главная страница",
+				"github":"#",
+				"filter":"filter-2013  filter-ic  filter-old"
 			},
 			"olympicschool":{
 				"link":"/olympicschool.html",
 				"name":"Информационный портал для СДЮСШОР «Олимпиец»",
-				"site":"http://www.enich.ru/",
+				"site":"#",
 				"preview":"olympicschool-preview.jpg",
-				"maket":"olympicschool-maket.jpg",
+				"maket":"olympicschool-maket.png",
+				"desc":"Главная страница",
+				"github":"#",
 				"filter":"filter-2013  filter-old  filter-ic"
 			},
 			"school36":{
@@ -391,6 +480,8 @@
 				"site":"http://xn--36-8kc3bfr2e.xn--p1ai/",
 				"preview":"school36-preview.jpg",
 				"maket":"school36-maket.jpg",
+				"desc":"Главная страница",
+				"github":"#",
 				"filter":"filter-2013  filter-ic"
 			},
 			"kadastr57":{
@@ -399,6 +490,8 @@
 				"site":"http://kadastr57.ru/",
 				"preview":"kadastr57-preview.jpg",
 				"maket":"kadastr57-maket.jpg",
+				"desc":"Главная страница",
+				"github":"#",
 				"filter":"filter-2013  filter-ic"
 			},
 			"info-city-old":{
@@ -406,7 +499,9 @@
 				"name":"Сайт web-студии info-city",
 				"site":"https://info-city.su/",
 				"preview":"info-city-old-preview.jpg",
-				"maket":"info-city-old-maket.jpg",
+				"maket":"info-city-old-maket.png", 
+				"desc":"Главная страница",
+				"github":"#",
 				"filter":"filter-2013  filter-old  filter-ic"
 			}
 		},
@@ -416,7 +511,9 @@
 				"name":"Сайт для учебного центра ДОСААФ России",
 				"site":"http://www.rosto-orel.ru/",
 				"preview":"rosto-preview.jpg",
-				"maket":"rosto-maket.jpg",
+				"maket":"rosto-maket.png",
+				"desc":"Главная страница",
+				"github":"#",
 				"filter":"filter-2012  filter-old  filter-ic"
 			},
 			"classicstom":{
@@ -424,7 +521,9 @@
 				"name":"Сайт для стоматологической клиники «Классик»",
 				"site":"http://classic-stom.ru/",
 				"preview":"classicstom-preview.jpg",
-				"maket":"classicstom-maket.jpg",
+				"maket":"classicstom-maket.png",
+				"desc":"Главная страница",
+				"github":"#",
 				"filter":"filter-2012  filter-old  filter-ic"
 			}
 		}

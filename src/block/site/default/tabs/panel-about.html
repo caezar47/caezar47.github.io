@@ -13,7 +13,7 @@
 		</ul>
 	</div>
 	<div class="{{block_prefix}}tab-content  {{block_mod}}">
-		<div class="{{block_prefix}}tab-pane  active {{block_mod}}" id="tab-personal">		
+		<div class="{{block_prefix}}tab-pane  active  {{block_mod}}" id="tab-personal">		
 			<div class="{{content_prefix}}row row  is--tabs  is--wrap  is--gutter  {{content_mod}}">
 				<div class="{{content_prefix}}cols cols  is--cols-6  is--cols-sm-12  is--tabs  {{content_mod}}">				
 					[[azbntple 
@@ -80,6 +80,52 @@
 			</div>
 		</div>
 		<div class="{{block_prefix}}tab-pane  {{block_mod}}" id="tab-experience">
+			<div class="{{content_prefix}}row row  is--wrap  is--gutter  {{content_mod}}">
+				<div class="{{content_prefix}}cols cols  is--cols-6  is--cols-sm-12  is--experience  {{content_mod}}">		
+					[[azbntple 
+						tpl="/src/block/site/default/card/card-about-experience.html" 
+						block_prefix="card__"
+						block_mod="{{content_mod}}  is--experience  is--dd"
+						block_logo="{{info.experience.dd.logo}}"
+						block_heading="{{info.experience.dd.heading}}"
+						block_date="{{info.experience.dd.date}}"
+						block_post="{{info.experience.dd.post}}"
+					]]	 				
+				</div>
+				<div class="{{content_prefix}}cols cols  is--cols-6  is--cols-sm-12  is--experience  {{content_mod}}">		
+					[[azbntple 
+						tpl="/src/block/site/default/card/card-about-experience.html" 
+						block_prefix="card__"
+						block_mod="{{content_mod}}  is--experience  is--ic"
+						block_logo="{{info.experience.ic2.logo}}"
+						block_heading="{{info.experience.ic2.heading}}"
+						block_date="{{info.experience.ic2.date}}"
+						block_post="{{info.experience.ic2.post}}"
+					]]	 				
+				</div>
+				<div class="{{content_prefix}}cols cols  is--cols-6  is--cols-sm-12  is--experience  {{content_mod}}">		
+					[[azbntple 
+						tpl="/src/block/site/default/card/card-about-experience.html" 
+						block_prefix="card__"
+						block_mod="{{content_mod}}  is--experience  is--ic"
+						block_logo="{{info.experience.ic.logo}}"
+						block_heading="{{info.experience.ic.heading}}"
+						block_date="{{info.experience.ic.date}}"
+						block_post="{{info.experience.ic.post}}"
+					]]	 				
+				</div>
+				<div class="{{content_prefix}}cols cols  is--cols-6  is--cols-sm-12  is--experience  {{content_mod}}">		
+					[[azbntple 
+						tpl="/src/block/site/default/card/card-about-experience.html" 
+						block_prefix="card__"
+						block_mod="{{content_mod}}  is--experience  is--unpk"
+						block_logo="{{info.experience.unpk.logo}}"
+						block_heading="{{info.experience.unpk.heading}}"
+						block_date="{{info.experience.unpk.date}}"
+						block_post="{{info.experience.unpk.post}}"
+					]]	 				
+				</div>
+			</div>
 		</div>
 	</div>
 </div>

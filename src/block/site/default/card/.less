@@ -12,6 +12,9 @@
 			align-items: center;
 			height: 100%;
 		}
+		&.is--portfolio-link{
+			padding-left: 55px;
+		}
 	}
 	&inner{
 		transition: @trs-site;		
@@ -78,7 +81,39 @@
 		}
 	}
 	&preview{
-		display: block;		
+		display: block;	
+		&.is--about{
+			&.is--experience{				
+				margin-bottom: 20px;
+			}
+			&.is--experience.is--unpk{
+				width: 120px;
+				height: 45px;
+			}
+			&.is--experience.is--ic{
+				width: 140px;
+				height: 20px;
+			}
+			&.is--experience.is--dd{
+				width: 90px;
+				height: 30px;
+			}
+		}	
+		&.is--portfolio-link{
+			position: absolute;
+			top: 50%;
+			left: 0;
+			transform: translateY(-50%);
+			width: 40px;
+			height: 40px;
+			margin: 0 auto 10px;
+		}
+		&.is--studio{
+			&.is--firm-ic{    
+				width: 215px;
+				height: 30px;
+			}
+		}
 	}
 	&plus{
 		&.is--portfolio{
@@ -111,6 +146,7 @@
 		}
 
 	}
+	
 	&heading{
 		&.is--about{
 			padding-left: 50px;
@@ -127,11 +163,18 @@
 				line-height: @b-lh + 6;
 			}
 			&.is--edu{
-				padding: 0;
+				padding: 0; 
 				font-size: @b-fs + 6;
 				line-height: @b-lh + 6;
 				color: @grey;
 				margin-bottom: 15px;
+			}
+			&.is--experience{
+				padding: 0;
+				font-size: @b-fs + 4;
+				line-height: @b-lh - 3;
+				margin-bottom: 10px;
+				font-weight: 700;
 			}
 		}
 		&.is--portfolio{
@@ -156,7 +199,34 @@
 		}
 		&.is--portfolio-count{
 			line-height: @b-lh - 4;
-		}		
+		}	
+		&.is--portfolio-link{
+			text-transform: uppercase;
+			font-size: @b-fs - 2;
+			letter-spacing: 2px;
+		}
+		&.is--portfolio-link,
+		&.is--studio{
+			margin-bottom: 10px;
+		}	
+	} 
+	
+	&date{
+		&.is--about{
+			&.is--experience{
+				font-size: @b-fs + 6;
+				line-height: @b-lh - 5;
+				color: @grey;   
+				padding-top: 10px;
+			}
+		}
+	}
+	&post{ 
+		&.is--about{
+			&.is--experience{
+				line-height: @b-lh - 5;
+			}
+		}
 	}
 	&text{
 		&.is--about{

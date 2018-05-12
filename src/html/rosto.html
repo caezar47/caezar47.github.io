@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ru-RU"> 
+	<head>
+		[[azbntple 
+			tpl="/src/block/site/default/head/.html" 
+			title=" "
+			description=" "
+		]] 		
+	</head>
+	<body class=""> 
+		[[azbntple 
+			tpl="/src/block/site/default/navbar/.html"
+			class="navbar-site scroll" 
+			navbar_prefix="navbar__"   
+			navbar_mod="  "   
+			navbar_scrollto="  "  
+			navbar_link=" /"
+		]]
+		[[azbntple  
+			tpl="/src/block/site/default/content/panel-portfolio-card-old.html"
+			content_prefix="content-block__"
+			content_mod="is--portfolio-card"
+			block_heading_mod="is--page-heading"
+			block_heading="{{portfolio.2012.rosto.name}}"   
+			block_desc="{{portfolio.2012.rosto.desc}}"  
+			block_maket="{{url-path-img}}/portfolio/{{portfolio.2012.rosto.maket}}"
+			block_site="{{portfolio.2012.rosto.site}}"
+			block_github="{{portfolio.2012.rosto.github}}"
+			block_studio_logo="{{info.experience.ic.logo}}"
+			block_studio_link="{{info.experience.ic.link}}"
+		]]
+		[[azbntple 
+			tpl="/src/block/site/default/footer/.html"
+			footer_prefix="footer__" 
+			block_id="index-footer"
+		]]		
+		[[azbntple tpl="/src/block/site/default/script/script.html" ]]
+	</body>
+</html>

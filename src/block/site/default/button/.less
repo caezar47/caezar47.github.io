@@ -11,6 +11,13 @@
     	letter-spacing: 0.31vw;
 	}
 }
+.btn-lg(){
+	font-size: @b-fs;
+	line-height: @b-lh;
+	@media @media-point-screen {
+	    padding: 15px 2.5vw;
+	}
+}
 /*.btn-xl(){
 	text-transform: uppercase;
 	font-weight: 700;
@@ -69,6 +76,9 @@
 			@media @media-point-screen {
 				width: 100%;
 			}
+		}
+		&.is--lg{
+			.btn-lg();
 		}
 		/*&.is--xl{
 			.btn-xl();

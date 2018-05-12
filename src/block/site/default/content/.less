@@ -155,6 +155,7 @@
 
 				}
 			}
+			
 		}
 		&.is--portfolio{
 			.makeCols(12, 12);
@@ -177,6 +178,11 @@
 			}
 
 		}
+		&.is--portfolio-card{
+			&.is--studio{
+				margin-left: auto;
+			}
+		}
 	}
 	&text{
 		
@@ -192,7 +198,8 @@
 	&filter{
 	}
 	&preview{
-		&.is--portfolio{
+		&.is--portfolio,
+		&.is--portfolio-card{
 			margin: 0 auto;
 		}
 		
@@ -247,9 +254,7 @@
 				color: @b-color;
 			}
 		}
-	}
-
-	
+	}	
 	@keyframes scroll {
 		0%   {transform:translateY(0);}
 		50%   {transform:translateY(5px);}
