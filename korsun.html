@@ -22,7 +22,7 @@
 
 <link href="/css/site.css" rel="stylesheet"> 		
 	</head>
-	<body class=""> 
+	<body> 
 		<nav class="navbar-site scroll navbar   ">
 	<div class="navbar__inner">
 		<div class="container navbar__container">
@@ -66,7 +66,7 @@
 	<a href=" /#index-skills" class="navbar__nav-link    " data-scrollto-diff="0 "><span>Навыки</span></a>  
 </li>
 								<li class="navbar__nav-item    ">
-	<a href=" /#index-portfolio" class="navbar__nav-link    " data-scrollto-diff="0 "><span>Портфолио</span></a>  
+	<a href="/portfolio.html" class="navbar__nav-link    " data-scrollto-diff="0 "><span>Портфолио</span></a>  
 </li>	
 								<li class="navbar__nav-item    ">
 	<a href=" /#index-footer" class="navbar__nav-link    " data-scrollto-diff="0 "><span>Контакты</span></a>  
@@ -81,36 +81,62 @@
 </nav>
 		<div class="content-block__panel  is--portfolio-card"  id="{{block_id}}">
 	<div class="content-block__container container  is--portfolio-card">
+		<div class="breadcrumb__block    ">
+	<ul class="breadcrumb__list    ">
+		<li class="breadcrumb__list-item">
+			<a href="/" class="breadcrumb__list-link">Главная</a>
+		</li>		
+		<li class="breadcrumb__list-item">
+			<a href="/portfolio.html" class="breadcrumb__list-link">Портфолио</a>
+		</li>
+		<li class="breadcrumb__list-item  is--active">
+			<span class="breadcrumb__list-link">Сайт для «Корсунская пустынь»</span>
+		</li>
+	</ul>
+</div>
 		<div class="page-header__block  is--page-heading">
-	<h1  class="page-header__heading  is--page-heading">Сайт «Корсунская пустынь»</h1>		
+	<h1  class="page-header__heading  is--page-heading">Сайт для «Корсунская пустынь»</h1>		
 </div>
 		<div class="content-block__elem  is--portfolio-card">
-			<a href="http://korsun-bm.ru/" target="_blank" class="content-block__site  is--portfolio-card">
-				<div class="content-block__site-icon  is--portfolio-card">
-					<svg class="icon-svg icon-icon-link" role="img">
+			<div class="content-block__row row  is--gutter  is--wrap  is--aic  is--portfolio-card">
+				<div class="content-block__cols cols  is--portfolio-card">
+					<a href="#" target="_blank" rel="nofollow" class="card__item  is--portfolio-link  is--site">	
+	<div class="card__heading  is--portfolio-link  is--site">Перейти на сайт</div>
+	<div class="card__preview  is--portfolio-link  is--site">
+		<svg class="icon-svg icon-icon-link" role="img">
 	<use xlink:href="/img/svg/sprite.svg#icon-link"></use>
 </svg>
-				</div>
-				Перейти на сайт
-			</a>
-		</div>
-		<div class="content-block__elem  is--portfolio-card">
-			<a href="http://korsun-bm.ru/" target="_blank" class="content-block__site  is--portfolio-card">
-				<div class="content-block__site-icon  is--portfolio-card">
-					<svg class="icon-svg icon-icon-link" role="img">
-	<use xlink:href="/img/svg/sprite.svg#icon-link"></use>
-</svg>
-				</div>
-				Проект на github
-			</a>
-		</div>
 	</div>
-
-	
+</a>
+				</div>
+				<div class="content-block__cols cols  is--portfolio-card">
+					<a href="#" target="_blank" rel="nofollow" class="card__item  is--portfolio-link  is--github">	
+	<div class="card__heading  is--portfolio-link  is--github">Проект на Github</div>
+	<div class="card__preview  is--portfolio-link  is--github">
+		<svg class="icon-svg icon-icon-github" role="img">
+	<use xlink:href="/img/svg/sprite.svg#icon-github"></use>
+</svg>
+	</div>
+</a>
+				</div>
+				<div class="content-block__cols cols  is--studio  is--portfolio-card">
+					<a href="http://dorohovdesign.ru/" target="_blank" rel="nofollow" class="card__item  is--studio  is--firm-dd">	
+	<div class="card__heading  is--studio  is--firm-dd">Разработано для студии</div>
+	<div class="card__preview  is--studio  is--firm-dd">
+		<svg class="icon-svg icon-firm-dd" role="img">
+	<use xlink:href="/img/svg/sprite.svg#firm-dd"></use>
+</svg>
+	</div>
+</a>
+				</div>
+			</div>
+		</div>
+	</div>	
 	<div class="page-header__block  is--center  is--portfolio">
 	<h2  class="page-header__heading  is--center  is--portfolio">Главная страница</h2>		
 </div>
-	<img src="/img/portfolio/korsun-maket.jpg" alt="Сайт «Корсунская пустынь»" class="img-responsive  content-block__preview  is--portfolio-card">
+
+	<img src="/img/portfolio/korsun-maket.jpg" alt="Сайт для «Корсунская пустынь»" class="img-responsive  content-block__preview  is--portfolio-card">
 </div>
 		<footer class="footer__block"  id="index-footer">	
 	<div class="footer__inner">	

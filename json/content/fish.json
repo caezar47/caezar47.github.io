@@ -69,31 +69,33 @@
 				"name":"Сайт ФГБОУ ВО Орловский ГАУ",
 				"desc1":"Главная страница",
 				"desc2":"Факультеты",
+				"desc3":"Факультеты",
 				"site":"http://www.orelsau.ru/",
 				"preview":"orelsau-preview.jpg",
 				"maket":"orelsau-maket.jpg",
 				"maket2":"orelsau-maket2.jpg",
+				"maket2":"orelsau-maket3.jpg",
+				"github":"#",
 				"filter":"filter-2018  filter-dev  filter-dd"
 			},
 			"igeba":{
 				"link":"/igeba.html",
 				"name":"Промо сайты для компании «ИнтерКлин»",
 				"desc1":"Главная страница",
-				"site":"http://cow.interclean.ru/",
-				"site2":"http://fog.interclean.ru/",
-				"site3":"http://fog.interclean.ru/",
-				"site4":"http://fog.interclean.ru/",
 				"preview":"igeba-preview.jpg",
 				"maket":"igeba-cow-maket.jpg",
-				"filter":"filter-2018  filter-dd"
+				"site":"http://cow.interclean.ru/",
+				"github":"#",
+				"filter":"filter-2018  filter-dev  filter-dd"
 			},
 			"korsun":{
 				"link":"/korsun.html",
 				"name":"Сайт для «Корсунская пустынь»",
 				"desc1":"Главная страница",
-				"site":"http://korsun-bm.ru/",
 				"preview":"korsun-preview.jpg",
 				"maket":"korsun-maket.jpg",
+				"site":"#",
+				"github":"#",
 				"filter":"filter-2018  filter-old  filter-dd"
 			},
 			"interrao":{
@@ -107,6 +109,7 @@
 				"maket":"interrao-maket.jpg",
 				"maket2":"interrao-maket2.jpg",
 				"maket3":"interrao-maket3.jpg",
+				"github":"#",
 				"filter":"filter-2018  filter-dev  filter-dd"
 			},
 			"superpizzaplus":{
@@ -120,6 +123,7 @@
 				"maket":"superpizzaplus-maket.jpg",
 				"maket2":"superpizzaplus-maket2.jpg",
 				"maket3":"superpizzaplus-maket3.jpg",
+				"github":"#",
 				"filter":"filter-2018  filter-dd"
 			}
 		},
@@ -130,6 +134,8 @@
 				"site":"https://orel-print.ru/",
 				"preview":"orion-preview.jpg",
 				"maket":"orion-maket.jpg",
+				"desc":"Главная страница",
+				"github":"#",
 				"filter":"filter-2017  filter-dd"
 			},
 			"albina":{
@@ -138,6 +144,8 @@
 				"site":"http://albina.center/",
 				"preview":"albina-preview.jpg",
 				"maket":"albina-maket.jpg",
+				"desc":"Главная страница",
+				"github":"#",
 				"filter":"filter-2017  filter-dd"
 			},
 			"yarus57":{
@@ -146,6 +154,8 @@
 				"site":"http://yarus57.ru/",
 				"preview":"yarus57-preview.jpg",
 				"maket":"yarus57-maket.jpg",
+				"desc":"Главная страница",
+				"github":"#",
 				"filter":"filter-2017  filter-dd"
 			},
 			"allfeed":{
@@ -154,6 +164,8 @@
 				"site":"http://allfeed.pro/",
 				"preview":"allfeed-preview.jpg",
 				"maket":"allfeed-maket.jpg",
+				"desc":"Главная страница",
+				"github":"#",
 				"filter":"filter-2017  filter-dd"
 			},
 			"oblkadastr":{
@@ -162,6 +174,8 @@
 				"site":"http://oblkadastr.ru/",
 				"preview":"oblkadastr-preview.jpg",
 				"maket":"oblkadastr-maket.jpg",
+				"desc":"Главная страница",
+				"github":"#",
 				"filter":"filter-2017  filter-dd"
 			},
 			"orelstroy":{
@@ -170,6 +184,8 @@
 				"site":"http://www.orelstroy.ru/",
 				"preview":"orelstroy-preview.jpg",
 				"maket":"orelstroy-maket.jpg",
+				"desc":"Главная страница",
+				"github":"#",
 				"filter":"filter-2017  filter-dd"
 			},
 			"dixion":{
@@ -178,6 +194,8 @@
 				"site":"http://klinika-dixion.ru/",
 				"preview":"dixion-preview.jpg",
 				"maket":"dixion-maket.jpg",
+				"desc":"Главная страница",
+				"github":"#",
 				"filter":"filter-2017  filter-dd"
 			},
 			"zenit-orel":{
@@ -186,6 +204,8 @@
 				"site":"https://zenit-orel.ru/",
 				"preview":"zenit-orel-preview.jpg",
 				"maket":"zenit-orel-maket.jpg",
+				"desc":"Главная страница",
+				"github":"#",
 				"filter":"filter-2017  filter-dd"
 			},
 			"manikur57":{
@@ -194,6 +214,8 @@
 				"site":"http://manikur57.ru/",
 				"preview":"manikur57-preview.jpg",
 				"maket":"manikur57-maket.jpg",
+				"desc":"Главная страница",
+				"github":"#",
 				"filter":"filter-2017  filter-dd"
 			},
 			"msk76":{
@@ -202,6 +224,8 @@
 				"site":"http://msk76.ru/",
 				"preview":"msk76-preview.jpg",
 				"maket":"msk76-maket.jpg",
+				"desc":"Главная страница",
+				"github":"#",
 				"filter":"filter-2017  filter-dd"
 			}
 		},
@@ -212,6 +236,8 @@
 				"site":"http://roza-33.ru/",
 				"preview":"roza33-preview.jpg",
 				"maket":"roza33-maket.jpg",
+				"desc":"Главная страница",
+				"github":"#",
 				"filter":"filter-2016  filter-dd"
 			},
 			"intdez":{
@@ -220,6 +246,8 @@
 				"site":"http://intdez.ru/",
 				"preview":"intdez-preview.jpg",
 				"maket":"intdez-maket.jpg",
+				"desc":"Главная страница",
+				"github":"#",
 				"filter":"filter-2016  filter-dd"
 			},
 			"avista":{
@@ -228,6 +256,8 @@
 				"site":"http://avista-center.ru/",
 				"preview":"avista-preview.jpg",
 				"maket":"avista-maket.jpg",
+				"desc":"Главная страница",
+				"github":"#",
 				"filter":"filter-2016  filter-dd"
 			},
 			"amd":{
@@ -236,6 +266,8 @@
 				"site":"http://amd-tech.ru/",
 				"preview":"amd-preview.jpg",
 				"maket":"amd-maket.jpg",
+				"desc":"Главная страница",
+				"github":"#",
 				"filter":"filter-2016  filter-dd"
 			},
 			"encomservice":{
@@ -244,6 +276,8 @@
 				"site":"https://www.encomservice.ru/",
 				"preview":"encomservice-preview.jpg",
 				"maket":"encomservice-maket.jpg",
+				"desc":"Главная страница",
+				"github":"#",
 				"filter":"filter-2016  filter-dd"
 			},
 			"enerfit":{
@@ -252,6 +286,8 @@
 				"site":"http://xn--e1agnnlk3d.xn--p1ai/",
 				"preview":"enerfit-preview.jpg",
 				"maket":"enerfit-maket.jpg",
+				"desc":"Главная страница",
+				"github":"#",
 				"filter":"filter-2016  filter-dd"
 			},
 			"star":{
@@ -260,6 +296,8 @@
 				"site":"http://xn----8sbdbdigocv9ais6c8h.xn--p1ai/",
 				"preview":"star-preview.jpg",
 				"maket":"star-maket.jpg",
+				"desc":"Главная страница",
+				"github":"#",
 				"filter":"filter-2016  filter-dd"
 			},
 			"chesterpub":{
@@ -268,6 +306,8 @@
 				"site":"http://chesterpub.ru/",
 				"preview":"chesterpub-preview.jpg",
 				"maket":"chesterpub-maket.jpg",
+				"desc":"Главная страница",
+				"github":"#",
 				"filter":"filter-2016  filter-dd"
 			},
 			"rkorma":{
@@ -275,7 +315,9 @@
 				"name":"Сайт для компании «Регион Корма»",
 				"site":"http://rkorma.ru/",
 				"preview":"rkorma-preview.jpg",
-				"maket":"rkorma-maket.jpg",
+				"maket":"rkorma-maket.png",
+				"desc":"Главная страница",
+				"github":"#",
 				"filter":"filter-2016  filter-dd"
 			}
 		},
@@ -285,7 +327,7 @@
 				"name":"Сайт для чешского агентства свадеб",
 				"site":"http://www.perfectweddingsevents.cz/",
 				"preview":"perfect-preview.jpg",
-				"maket":"perfect-maket.jpg",
+				"maket":"perfect-maket.png",
 				"desc":"Главная страница",
 				"github":"#",
 				"filter":"filter-2015  filter-ic"
@@ -295,7 +337,7 @@
 				"name":"Сайт городского портала infoorel.ru",
 				"site":"http://www.infoorel.ru/",
 				"preview":"infoorel-preview.jpg",
-				"maket":"infoorel-maket.jpg",
+				"maket":"infoorel-maket.png",
 				"desc":"Главная страница",
 				"github":"#",
 				"filter":"filter-2015  filter-ic"
@@ -305,7 +347,7 @@
 				"name":"Сайт web-студии info-city",
 				"site":"https://info-city.su/",
 				"preview":"info-city-preview.jpg",
-				"maket":"info-city-maket.jpg",
+				"maket":"info-city-maket.png",
 				"desc":"Главная страница",
 				"github":"#",
 				"filter":"filter-2015  filter-ic"
@@ -315,7 +357,7 @@
 				"name":"Интернет-магазин семян",
 				"site":"https://semena-bg.ru/",
 				"preview":"semena-preview.jpg",
-				"maket":"semena-maket.jpg",
+				"maket":"semena-maket.png",
 				"desc":"Главная страница",
 				"github":"#",
 				"filter":"filter-2015  filter-ic"
@@ -325,7 +367,7 @@
 				"name":"Сайт для УК «Домсервис»",
 				"site":"http://domservis57.ru/",
 				"preview":"domservis57-preview.jpg",
-				"maket":"domservis57-maket.jpg",
+				"maket":"domservis57-maket.png",
 				"desc":"Главная страница",
 				"github":"#",
 				"filter":"filter-2015  filter-ic"
@@ -345,7 +387,7 @@
 				"name":"Корпоративный сайт для компании «Ремдорсервис»",
 				"site":"http://rdservis.ru/",
 				"preview":"rdservis-preview.jpg",
-				"maket":"rdservis-maket.jpg",
+				"maket":"rdservis-maket.png",
 				"desc":"Главная страница",
 				"github":"#",
 				"filter":"filter-2015  filter-ic"
@@ -365,9 +407,9 @@
 			"chydopir":{
 				"link":"/chydopir.html",
 				"name":"Корпоративный сайт для сети ресторанов «Чудо-Пир»",
-				"site":"http://chydopir.ru/",
+				"site":"http://chydo-pir.ru/",
 				"preview":"chydopir-preview.jpg",
-				"maket":"chydopir-maket.jpg",
+				"maket":"chydopir-maket.png",
 				"desc":"Главная страница",
 				"github":"#",
 				"filter":"filter-2014  filter-ic"
@@ -377,7 +419,7 @@
 				"name":"Корпоративный сайт для завода «Дормаш»",
 				"site":"http://www.orel-dormash.ru/",
 				"preview":"dormash-preview.jpg",
-				"maket":"dormash-maket.jpg",
+				"maket":"dormash-maket.png",
 				"desc":"Главная страница",
 				"github":"#",
 				"filter":"filter-2014  filter-ic"
@@ -397,7 +439,7 @@
 				"name":"Интернет-магазин модной одежды «Oltadi Fashion»",
 				"site":"http://oltadi.ru/",
 				"preview":"oltadi-preview.jpg",
-				"maket":"oltadi-maket.jpg",
+				"maket":"oltadi-maket.png",
 				"desc":"Главная страница",
 				"github":"#",
 				"filter":"filter-2014  filter-ic"
@@ -427,7 +469,7 @@
 				"name":"Сайт для проектной организации «Стройпроект»",
 				"site":"http://stroyproekt-orel.ru/",
 				"preview":"stroyproekt-preview.jpg",
-				"maket":"stroyproekt-maket.jpg",
+				"maket":"stroyproekt-maket.png",
 				"desc":"Главная страница",
 				"github":"#",
 				"filter":"filter-2014  filter-ic"
@@ -449,7 +491,7 @@
 				"name":"Интернет-магазин для торгового дома «Гамма»",
 				"site":"http://noskiorel.ru/",
 				"preview":"noskiorel-preview.jpg",
-				"maket":"noskiorel-maket.jpg",
+				"maket":"noskiorel-maket.png",
 				"desc":"Главная страница",
 				"github":"#",
 				"filter":"filter-2013  filter-ic"
@@ -479,7 +521,7 @@
 				"name":"Сайт для СОШ № 36",
 				"site":"http://xn--36-8kc3bfr2e.xn--p1ai/",
 				"preview":"school36-preview.jpg",
-				"maket":"school36-maket.jpg",
+				"maket":"school36-maket.png",
 				"desc":"Главная страница",
 				"github":"#",
 				"filter":"filter-2013  filter-ic"
@@ -489,7 +531,7 @@
 				"name":"Сайт для компании «Объектив Лэнд»",
 				"site":"http://kadastr57.ru/",
 				"preview":"kadastr57-preview.jpg",
-				"maket":"kadastr57-maket.jpg",
+				"maket":"kadastr57-maket.png",
 				"desc":"Главная страница",
 				"github":"#",
 				"filter":"filter-2013  filter-ic"

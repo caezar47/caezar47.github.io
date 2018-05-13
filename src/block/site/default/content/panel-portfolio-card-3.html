@@ -1,12 +1,56 @@
 <div class="{{content_prefix}}panel  {{content_mod}}"  id="{{block_id}}">
 	<div class="{{content_prefix}}container container  {{content_mod}}">
 		[[azbntple 
+			tpl="/src/block/site/default/breadcrumb/level2.html" 
+			bread_prefix="breadcrumb__"
+			bread_mod="  "
+			level_1="Портфолио"
+			level_1_link="/portfolio.html"
+			level_2="{{block_heading}}"
+		]]
+		[[azbntple 
 			tpl="/src/block/site/default/page-header/heading.html" 
 			header_prefix="page-header__" 
 			header_mod="{{block_heading_mod}}"
 			header_level="h1"
 			header="{{block_heading}}"
 		]]
+		<div class="{{content_prefix}}elem  {{content_mod}}">
+			<div class="{{content_prefix}}row row  is--gutter  is--wrap  is--aic  {{content_mod}}">
+				<div class="{{content_prefix}}cols cols  {{content_mod}}">
+					[[azbntple  
+						tpl="/src/block/site/default/card/card-portfolio-link.html"
+						block_prefix="card__"
+						block_mod="is--portfolio-link  is--site"
+						block_site="{{portfolio.2014.altinbay.site}}"
+						block_heading="Перейти на сайт"
+						block_link="{{block_site}}"
+						block_logo="icon-link"
+					]]
+				</div>
+				<div class="{{content_prefix}}cols cols  {{content_mod}}">
+					[[azbntple  
+						tpl="/src/block/site/default/card/card-portfolio-link.html"
+						block_prefix="card__"
+						block_mod="is--portfolio-link  is--github"
+						block_site="{{portfolio.2014.altinbay.site}}"
+						block_heading="Проект на Github"
+						block_link="{{block_github}}"
+						block_logo="icon-github"
+					]]
+				</div>
+				<div class="{{content_prefix}}cols cols  is--studio  {{content_mod}}">
+					[[azbntple  
+						tpl="/src/block/site/default/card/card-portfolio-studio.html"
+						block_prefix="card__"
+						block_mod="is--studio  is--{{block_studio_logo}}"
+						block_logo="{{block_studio_logo}}"
+						block_link="{{block_studio_link}}"
+					]]
+				</div>
+			</div>
+		</div>
+	</div>
 	</div>
 	[[azbntple 
 		tpl="/src/block/site/default/page-header/heading.html" 

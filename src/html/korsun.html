@@ -7,22 +7,17 @@
 			description=" "
 		]] 		
 	</head>
-	<body class=""> 
+	<body> 
 		[[azbntple 
-			tpl="/src/block/site/default/navbar/.html"
-			class="navbar-site scroll" 
-			navbar_prefix="navbar__"   
-			navbar_mod="  "   
-			navbar_scrollto="  "  
-			navbar_link=" /"
+			tpl="/src/block/site/default/navbar/include-second.html"
 		]]
 		[[azbntple  
-			tpl="/src/block/site/default/content/panel-portfolio-card.html"
+			tpl="/src/block/site/default/content/panel-portfolio-card-old.html"
 			content_prefix="content-block__"
 			content_mod="is--portfolio-card"
 			block_heading_mod="is--page-heading"
 			block_heading="{{portfolio.2018.korsun.name}}"   
-			block_desc1="{{portfolio.2018.korsun.desc1}}"  
+			block_desc="{{portfolio.2018.korsun.desc1}}"  
 			block_maket="{{url-path-img}}/portfolio/{{portfolio.2018.korsun.maket}}"
 			block_site="{{portfolio.2018.korsun.site}}"
 			block_github="{{portfolio.2018.korsun.github}}"

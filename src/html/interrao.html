@@ -7,19 +7,14 @@
 			description=" "
 		]] 		
 	</head>
-	<body class=""> 
+	<body> 
 		[[azbntple 
-			tpl="/src/block/site/default/navbar/.html"
-			class="navbar-site scroll" 
-			navbar_prefix="navbar__"   
-			navbar_mod="  "   
-			navbar_scrollto="  "  
-			navbar_link=" /"
+			tpl="/src/block/site/default/navbar/include-second.html"
 		]]
 		[[azbntple  
 			tpl="/src/block/site/default/content/panel-portfolio-card-3.html"
 			content_prefix="content-block__"
-			content_mod="is--portfolio"
+			content_mod="is--portfolio-card"
 			block_heading_mod="is--page-heading"
 			block_heading="{{portfolio.2018.interrao.name}}"   
 			block_desc1="{{portfolio.2018.interrao.desc1}}"   
@@ -28,6 +23,8 @@
 			block_maket="{{url-path-img}}/portfolio/{{portfolio.2018.interrao.maket}}"
 			block_maket2="{{url-path-img}}/portfolio/{{portfolio.2018.interrao.maket2}}"
 			block_maket3="{{url-path-img}}/portfolio/{{portfolio.2018.interrao.maket3}}"
+			block_site="{{portfolio.2018.interrao.site}}"
+			block_github="{{portfolio.2018.interrao.github}}"
 			block_studio_logo="{{info.experience.dd.logo}}"
 			block_studio_link="{{info.experience.dd.link}}"
 		]]

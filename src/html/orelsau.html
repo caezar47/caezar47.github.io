@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ru-RU"> 
+	<head>
+		[[azbntple 
+			tpl="/src/block/site/default/head/.html" 
+			title=" "
+			description=" "
+		]] 		
+	</head>
+	<body> 
+		[[azbntple 
+			tpl="/src/block/site/default/navbar/include-second.html"
+		]]
+		[[azbntple  
+			tpl="/src/block/site/default/content/panel-portfolio-card-3.html"
+			content_prefix="content-block__"
+			content_mod="is--portfolio-card"
+			block_heading_mod="is--page-heading"
+			block_heading="{{portfolio.2018.orelsau.name}}"   
+			block_desc1="{{portfolio.2018.orelsau.desc1}}"   
+			block_desc2="{{portfolio.2018.orelsau.desc2}}"   
+			block_desc3="{{portfolio.2018.orelsau.desc3}}"   
+			block_maket="{{url-path-img}}/portfolio/{{portfolio.2018.orelsau.maket}}"
+			block_maket2="{{url-path-img}}/portfolio/{{portfolio.2018.orelsau.maket2}}"
+			block_maket3="{{url-path-img}}/portfolio/{{portfolio.2018.orelsau.maket3}}"
+			block_site="{{portfolio.2018.orelsau.site}}"
+			block_github="{{portfolio.2018.orelsau.github}}"
+			block_studio_logo="{{info.experience.dd.logo}}"
+			block_studio_link="{{info.experience.dd.link}}"
+		]]
+		[[azbntple 
+			tpl="/src/block/site/default/footer/.html"
+			footer_prefix="footer__" 
+			block_id="index-footer"
+		]]		
+		[[azbntple tpl="/src/block/site/default/script/script.html" ]]
+	</body>
+</html>
