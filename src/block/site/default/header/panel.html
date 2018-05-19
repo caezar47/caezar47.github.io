@@ -1,0 +1,21 @@
+<header class="{{block_prefix}}block" style="background-image:url({{url-path-img}}/bg/bg-header-1920x1080.jpg)"  id="{{block_id}}">
+	
+	<div class="{{block_prefix}}panel">
+		<div class="container {{block_prefix}}container">
+			<div class="{{block_prefix}}inner">
+				<div class="{{block_prefix}}heading-small">{{block_heading_small}}</div>
+				<h1 class="{{block_prefix}}heading">{{block_heading}}</h1>
+				[[azbntple 
+					tpl="/src/block/site/default/button/link.html"
+					button_prefix="btn__" 
+					button_mod="  "
+					button_link="{{page.portfolio}}"
+					button_name="Портфолио"
+				]]
+			</div>
+		</div>
+	</div>
+	<a href=".scrollto-ready" class="{{block_prefix}}scrollto scrollto" data-scrollto-diff="0">
+		[[azbntple tpl="/src/block/site/default/svg-sprite/.html" icon-name="next-panel" ]]
+	</a>
+</header>

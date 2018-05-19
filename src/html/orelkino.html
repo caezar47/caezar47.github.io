@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ru-RU"> 
+	<head>
+		[[azbntple 
+			tpl="/src/block/site/default/head/.html" 
+			title=" "
+			description=" "
+		]] 		
+	</head>
+	<body> 
+		[[azbntple 
+			tpl="/src/block/site/default/navbar/include-second.html"
+		]]
+		[[azbntple  
+			tpl="/src/block/site/page/panel-portfolio-card-old.html"
+			content_prefix="content-block__"
+			content_mod="is--portfolio-card"
+			block_heading_mod="is--page-heading"
+			block_heading="{{portfolio.2014.orelkino.name}}"   
+			block_desc="{{portfolio.2014.orelkino.desc}}"  
+			block_maket="{{url-path-img}}/portfolio/{{portfolio.2014.orelkino.maket}}"
+			block_site="{{portfolio.2014.orelkino.site}}"
+			block_github="{{portfolio.2014.orelkino.github}}"
+			block_studio_logo="{{info.experience.ic.logo}}"
+			block_studio_link="{{info.experience.ic.link}}"
+		]]
+		[[azbntple 
+			tpl="/src/block/site/default/footer/.html"
+			footer_prefix="footer__" 
+			block_id="index-footer"
+		]]		
+		[[azbntple tpl="/src/block/site/default/script/script.html" ]]
+	</body>
+</html>

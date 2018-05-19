@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ru-RU"> 
+	<head>
+		[[azbntple 
+			tpl="/src/block/site/default/head/.html" 
+			title=" "
+			description=" "
+		]] 		
+	</head>
+	<body> 
+		[[azbntple 
+			tpl="/src/block/site/default/navbar/include-second.html"
+		]]
+		[[azbntple  
+			tpl="/src/block/site/page/panel-portfolio.html"
+			content_prefix="content-block__"
+			content_mod="is--portfolio"
+			block_heading_mod="is--page-heading  is--line  is--portfolio-index"
+			block_heading="Портфолио"
+			block_id="index-portfolio"   
+			block_heading_data="portfolio"   
+		]]
+		[[azbntple 
+			tpl="/src/block/site/default/footer/.html"
+			footer_prefix="footer__" 
+			block_id="index-footer"
+		]]		
+		[[azbntple tpl="/src/block/site/default/script/script.html" ]]
+	</body>
+</html>
