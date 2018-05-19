@@ -4,21 +4,20 @@
 		<meta charset="utf-8">	
 <title>  | caezar47.github.io</title>
 <meta name="description" content=" "/>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
 <link rel="manifest" href="/favicon/site.webmanifest">
-<link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#0a4587">
+<link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#ffc40d">
 <link rel="shortcut icon" href="/favicon/favicon.ico">
-<meta name="apple-mobile-web-app-title" content="beinternational.ru">
-<meta name="application-name" content="beinternational.ru">
+<meta name="apple-mobile-web-app-title" content="caezar47">
+<meta name="application-name" content="caezar47">
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-config" content="/favicon/browserconfig.xml">
 <meta name="theme-color" content="#ffffff">
-
 
 <link href="/css/site.css" rel="stylesheet"> 		
 	</head>
@@ -37,11 +36,21 @@
 							</button>
 						</div>
 					</div>
+					<div class="cols navbar__cols-header">
+						<a href="/portfolio.html" class="navbar__nav-icon"><svg class="icon-svg icon-navbar-portfolio" role="img">
+	<use xlink:href="/img/svg/sprite.svg#navbar-portfolio"></use>
+</svg></a>
+					</div>
 					<div class="cols navbar__cols-header  is--brand">
 						<a class="navbar__brand    " href=" /#index-header"><img src="/img/default/logotip.jpg" alt=""></a>
 					</div>
-					<div class="cols navbar__cols-header  is--tel">
-						<a href="tel:+79102016414" class="navbar__tel  is--icon"><svg class="icon-svg icon-contacts-tel" role="img">
+					<div class="cols navbar__cols-header">
+						<a href="mailto:iss47@ya.ru" class="navbar__nav-icon  is--email"><svg class="icon-svg icon-contacts-email" role="img">
+	<use xlink:href="/img/svg/sprite.svg#contacts-email"></use>
+</svg></a>
+					</div>
+					<div class="cols navbar__cols-header">
+						<a href="tel:+79102016414" class="navbar__nav-icon  is--tel"><svg class="icon-svg icon-contacts-tel" role="img">
 	<use xlink:href="/img/svg/sprite.svg#contacts-tel"></use>
 </svg></a>
 					</div>
@@ -57,16 +66,16 @@
 						<div class="cols navbar__collapse-cols cols  is--right">							
 							<ul class="navbar__nav">
 								<li class="navbar__nav-item    ">
-	<a href=" /#index-header" class="navbar__nav-link    " data-scrollto-diff="0 "><span>Главная</span></a>  
+	<a href=" /#index-header" class="navbar__nav-link    " data-scrollto-diff="-90"><span>Главная</span></a>  
 </li>
 								<li class="navbar__nav-item    ">
-	<a href=" /#index-about" class="navbar__nav-link    " data-scrollto-diff="0 "><span>Обо мне</span></a>  
+	<a href=" /#index-about" class="navbar__nav-link    " data-scrollto-diff="-90"><span>Обо мне</span></a>  
 </li>         
 								<li class="navbar__nav-item    ">
-	<a href=" /#index-skills" class="navbar__nav-link    " data-scrollto-diff="0 "><span>Навыки</span></a>  
+	<a href=" /#index-skills" class="navbar__nav-link    " data-scrollto-diff="-90"><span>Навыки</span></a>  
 </li>
 								<li class="navbar__nav-item    ">
-	<a href="/portfolio.html" class="navbar__nav-link    " data-scrollto-diff="0 "><span>Портфолио</span></a>  
+	<a href="/portfolio.html" class="navbar__nav-link    " data-scrollto-diff="-90"><span>Портфолио</span></a>  
 </li>	
 								<li class="navbar__nav-item    ">
 	<a href=" /#index-footer" class="navbar__nav-link    " data-scrollto-diff="0 "><span>Контакты</span></a>  
@@ -90,16 +99,18 @@
 			<li class="tabs__item  is--portfolio  active">
 				<a class="tabs__link  is--portfolio" href="#" data-filter="*"><span>В</span>се</a>
 			</li>
-			<li class="tabs__item  is--portfolio">
-				<a class="tabs__link  is--portfolio" href="#" data-filter=".filter-responsive"><span>А</span>даптивные сайты</a>
+			<li class="tabs__item  is--portfolio  dropdown">
+				<button class="tabs__link  is--dropdown  is--portfolio" type="button" data-toggle="dropdown"><span>Т</span>ип сайта</button>
+				<ul class="tabs__dropdown-menu  dropdown-menu" role="menu" aria-labelledby="dLabel">
+					<li class="tabs__dropdown-item  is--portfolio">
+						<a class="tabs__dropdown-link  is--portfolio" href="#" data-filter=".filter-shop">Интернет-магазины</a>
+					</li>
+					<li class="tabs__dropdown-item  is--portfolio">
+						<a class="tabs__dropdown-link  is--portfolio" href="#" data-filter=".filter-comp">Корпоративный</a>
+					</li>
+				</ul>
 			</li>
-			<li class="tabs__item  is--portfolio">
-				<a class="tabs__link  is--portfolio" href="#" data-filter=".filter-dev"><span>В</span> разработке</a>
-			</li>
-			<li class="tabs__item  is--portfolio">
-				<a class="tabs__link  is--portfolio" href="#" data-filter=".filter-old"><span>С</span>тарые версии</a>
-			</li>
-			<li class="tabs__item  is--portfolio  is--right  dropdown">
+			<li class="tabs__item  is--portfolio  dropdown">
 				<button class="tabs__link  is--dropdown  is--portfolio" type="button" data-toggle="dropdown">Студия</button>
 				<ul class="tabs__dropdown-menu  dropdown-menu" role="menu" aria-labelledby="dLabel">
 					<li class="tabs__dropdown-item  is--portfolio">
@@ -135,6 +146,12 @@
 						<a class="tabs__dropdown-link  is--portfolio" href="#" data-filter=".filter-2012">2012</a>
 					</li>
 				</ul>
+			</li>
+			<li class="tabs__item  is--portfolio  is--right">
+				<a class="tabs__link  is--portfolio" href="#" data-filter=".filter-dev"><span>В</span> разработке</a>
+			</li>
+			<li class="tabs__item  is--portfolio">
+				<a class="tabs__link  is--portfolio" href="#" data-filter=".filter-old"><span>С</span>тарые версии</a>
 			</li>
 		</ul>
 	</div>
@@ -185,7 +202,7 @@
 		</div>
 	</a>
 </div>			
-			<div class="content-block__cols cols  is--portfolio  filter-2018  filter-dev  filter-dd">
+			<div class="content-block__cols cols  is--portfolio  filter-2018  filter-dev  filter-dd  filter-comp">
 	<a href="/interrao.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/interrao-preview.jpg" alt="Корпоративный сайт компании «Орловский&nbsp;энергосбыт»" />
@@ -200,7 +217,7 @@
 		</div>
 	</a>
 </div>				
-			<div class="content-block__cols cols  is--portfolio  filter-2018  filter-dd">
+			<div class="content-block__cols cols  is--portfolio  filter-2018  filter-dd  filter-shop">
 	<a href="/superpizzaplus.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/superpizzaplus-preview.jpg" alt="Сайт пиццерии «Супер Пицца»" />
@@ -216,7 +233,7 @@
 	</a>
 </div>		
 			<!-- 2017  -->
-			<div class="content-block__cols cols  is--portfolio  filter-2017  filter-dd">
+			<div class="content-block__cols cols  is--portfolio  filter-2017  filter-dd  filter-shop">
 	<a href="/orion.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/orion-preview.jpg" alt="Сайт типографии Орион-Принт" />
@@ -276,7 +293,7 @@
 		</div>
 	</a>
 </div>				
-			<div class="content-block__cols cols  is--portfolio  filter-2017  filter-dd">
+			<div class="content-block__cols cols  is--portfolio  filter-2017  filter-dd  filter-comp">
 	<a href="/oblkadastr.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/oblkadastr-preview.jpg" alt="Корпоративный сайт для Областного кадастрового агентства" />
@@ -291,7 +308,7 @@
 		</div>
 	</a>
 </div>				
-			<div class="content-block__cols cols  is--portfolio  filter-2017  filter-dd">
+			<div class="content-block__cols cols  is--portfolio  filter-2017  filter-dd  filter-comp">
 	<a href="/orelstroy.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/orelstroy-preview.jpg" alt="Корпоративный сайт для строительной компании «Орёлстрой»" />
@@ -307,7 +324,7 @@
 	</a>
 </div>					
 								
-			<div class="content-block__cols cols  is--portfolio  filter-2017  filter-dd">
+			<div class="content-block__cols cols  is--portfolio  filter-2017  filter-dd  filter-comp">
 	<a href="/zenit-orel.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/zenit-orel-preview.jpg" alt="Корпоративный сайт для строительной компании «Зенит»" />
@@ -398,7 +415,7 @@
 		</div>
 	</a>
 </div>
-			<div class="content-block__cols cols  is--portfolio  filter-2016  filter-dd">
+			<div class="content-block__cols cols  is--portfolio  filter-2016  filter-dd  filter-comp">
 	<a href="/amd.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/amd-preview.jpg" alt="Корпоративный сайт для инжиниринговой компании «АМД-технологии»" />
@@ -413,7 +430,7 @@
 		</div>
 	</a>
 </div>
-			<div class="content-block__cols cols  is--portfolio  filter-2016  filter-dd">
+			<div class="content-block__cols cols  is--portfolio  filter-2016  filter-dd  filter-shop">
 	<a href="/encomservice.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/encomservice-preview.jpg" alt="Сайт сервисного цента «Энком Сервис»" />
@@ -428,7 +445,7 @@
 		</div>
 	</a>
 </div>
-			<div class="content-block__cols cols  is--portfolio  filter-2016  filter-dd">
+			<div class="content-block__cols cols  is--portfolio  filter-2016  filter-dd  filter-shop">
 	<a href="/enerfit.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/enerfit-preview.jpg" alt="Интернет-магазин энерфит.рф" />
@@ -458,7 +475,7 @@
 		</div>
 	</a>
 </div>
-			<div class="content-block__cols cols  is--portfolio  filter-2016  filter-dd">
+			<div class="content-block__cols cols  is--portfolio  filter-2016  filter-dd  filter-shop">
 	<a href="/chesterpub.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/chesterpub-preview.jpg" alt="Сайт для пивного ресторана «Честер Паб»" />
@@ -534,7 +551,7 @@
 		</div>
 	</a>
 </div>
-			<div class="content-block__cols cols  is--portfolio  filter-2015  filter-ic">
+			<div class="content-block__cols cols  is--portfolio  filter-2015  filter-ic  filter-shop">
 	<a href="/semena.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/semena-preview.jpg" alt="Интернет-магазин семян" />
@@ -579,7 +596,7 @@
 		</div>
 	</a>
 </div>
-			<div class="content-block__cols cols  is--portfolio  filter-2015  filter-ic">
+			<div class="content-block__cols cols  is--portfolio  filter-2015  filter-ic filter-comp">
 	<a href="/rdservis.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/rdservis-preview.jpg" alt="Корпоративный сайт для компании «Ремдорсервис»" />
@@ -610,7 +627,7 @@
 		</div>
 	</a>
 </div>
-			<div class="content-block__cols cols  is--portfolio  filter-2014  filter-ic">
+			<div class="content-block__cols cols  is--portfolio  filter-2014  filter-ic  filter-shop  filter-comp">
 	<a href="/chydopir.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/chydopir-preview.jpg" alt="Корпоративный сайт для сети ресторанов «Чудо-Пир»" />
@@ -625,7 +642,7 @@
 		</div>
 	</a>
 </div>
-			<div class="content-block__cols cols  is--portfolio  filter-2014  filter-ic">
+			<div class="content-block__cols cols  is--portfolio  filter-2014  filter-ic  filter-comp">
 	<a href="/dormash.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/dormash-preview.jpg" alt="Корпоративный сайт для завода «Дормаш»" />
@@ -640,7 +657,7 @@
 		</div>
 	</a>
 </div>
-			<div class="content-block__cols cols  is--portfolio  filter-2014  filter-old  filter-ic">
+			<div class="content-block__cols cols  is--portfolio  filter-2014  filter-old  filter-ic  filter-shop">
 	<a href="/autoorel.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/autoorel-preview.jpg" alt="Интернет-магазин запчастей Autoorel.ru" />
@@ -655,7 +672,7 @@
 		</div>
 	</a>
 </div>
-			<div class="content-block__cols cols  is--portfolio  filter-2014  filter-ic">
+			<div class="content-block__cols cols  is--portfolio  filter-2014  filter-ic  filter-shop">
 	<a href="/oltadi.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/oltadi-preview.jpg" alt="Интернет-магазин модной одежды «Oltadi Fashion»" />
@@ -715,7 +732,7 @@
 		</div>
 	</a>
 </div>
-			<div class="content-block__cols cols  is--portfolio  filter-2014  filter-old  filter-ic">
+			<div class="content-block__cols cols  is--portfolio  filter-2014  filter-old  filter-ic  filter-comp">
 	<a href="/zenit-orel-old.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/zenit-orel-old-preview.jpg" alt="Корпоративный сайт для строительной компании «Зенит»" />
@@ -731,7 +748,7 @@
 	</a>
 </div>
 			<!-- 2013 -->
-			<div class="content-block__cols cols  is--portfolio  filter-2013  filter-ic">
+			<div class="content-block__cols cols  is--portfolio  filter-2013  filter-ic  filter-shop">
 	<a href="/noskiorel.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/noskiorel-preview.jpg" alt="Интернет-магазин для торгового дома «Гамма»" />
@@ -746,7 +763,7 @@
 		</div>
 	</a>
 </div>
-			<div class="content-block__cols cols  is--portfolio  filter-2013  filter-ic  filter-old">
+			<div class="content-block__cols cols  is--portfolio  filter-2013  filter-ic  filter-old  filter-comp">
 	<a href="/enich.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/enich-preview.jpg" alt="Корпоративный сайт для компании «Енич»" />
@@ -925,11 +942,9 @@
 <![endif]-->
 <script src="/js/jquery-3.2.1.min.js" ></script>
 <script src="/js/document-ready.js" ></script>
-<script src="/js/bootstrap.min.js" ></script>
 <script src="/js/svg4everybody.min.js" ></script>
 <script>
 svg4everybody();
-document.createElement("picture");
 </script> 
 	</body>
 </html>

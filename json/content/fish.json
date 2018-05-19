@@ -69,12 +69,12 @@
 				"name":"Сайт ФГБОУ ВО Орловский ГАУ",
 				"desc1":"Главная страница",
 				"desc2":"Факультеты",
-				"desc3":"Факультеты",
+				"desc3":"Абитуриенту",
 				"site":"http://www.orelsau.ru/",
 				"preview":"orelsau-preview.jpg",
 				"maket":"orelsau-maket.jpg",
 				"maket2":"orelsau-maket2.jpg",
-				"maket2":"orelsau-maket3.jpg",
+				"maket3":"orelsau-maket3.jpg",
 				"github":"#",
 				"filter":"filter-2018  filter-dev  filter-dd"
 			},
@@ -110,7 +110,7 @@
 				"maket2":"interrao-maket2.jpg",
 				"maket3":"interrao-maket3.jpg",
 				"github":"#",
-				"filter":"filter-2018  filter-dev  filter-dd"
+				"filter":"filter-2018  filter-dev  filter-dd  filter-comp"
 			},
 			"superpizzaplus":{
 				"link":"/superpizzaplus.html",
@@ -124,7 +124,7 @@
 				"maket2":"superpizzaplus-maket2.jpg",
 				"maket3":"superpizzaplus-maket3.jpg",
 				"github":"#",
-				"filter":"filter-2018  filter-dd"
+				"filter":"filter-2018  filter-dd  filter-shop"
 			}
 		},
 		"2017":{
@@ -136,7 +136,7 @@
 				"maket":"orion-maket.jpg",
 				"desc":"Главная страница",
 				"github":"#",
-				"filter":"filter-2017  filter-dd"
+				"filter":"filter-2017  filter-dd  filter-shop"
 			},
 			"albina":{
 				"link":"/albina.html",
@@ -176,7 +176,7 @@
 				"maket":"oblkadastr-maket.jpg",
 				"desc":"Главная страница",
 				"github":"#",
-				"filter":"filter-2017  filter-dd"
+				"filter":"filter-2017  filter-dd  filter-comp"
 			},
 			"orelstroy":{
 				"link":"/orelstroy.html",
@@ -186,7 +186,7 @@
 				"maket":"orelstroy-maket.jpg",
 				"desc":"Главная страница",
 				"github":"#",
-				"filter":"filter-2017  filter-dd"
+				"filter":"filter-2017  filter-dd  filter-comp"
 			},
 			"dixion":{
 				"link":"/dixion.html",
@@ -196,7 +196,7 @@
 				"maket":"dixion-maket.jpg",
 				"desc":"Главная страница",
 				"github":"#",
-				"filter":"filter-2017  filter-dd"
+				"filter":"filter-2017  filter-dd  filter-comp"
 			},
 			"zenit-orel":{
 				"link":"/zenit-orel.html",
@@ -206,7 +206,7 @@
 				"maket":"zenit-orel-maket.jpg",
 				"desc":"Главная страница",
 				"github":"#",
-				"filter":"filter-2017  filter-dd"
+				"filter":"filter-2017  filter-dd  filter-comp"
 			},
 			"manikur57":{
 				"link":"/manikur57.html",
@@ -268,7 +268,7 @@
 				"maket":"amd-maket.jpg",
 				"desc":"Главная страница",
 				"github":"#",
-				"filter":"filter-2016  filter-dd"
+				"filter":"filter-2016  filter-dd  filter-comp"
 			},
 			"encomservice":{
 				"link":"/encomservice.html",
@@ -278,7 +278,7 @@
 				"maket":"encomservice-maket.jpg",
 				"desc":"Главная страница",
 				"github":"#",
-				"filter":"filter-2016  filter-dd"
+				"filter":"filter-2016  filter-dd  filter-shop"
 			},
 			"enerfit":{
 				"link":"/enerfit.html",
@@ -288,7 +288,7 @@
 				"maket":"enerfit-maket.jpg",
 				"desc":"Главная страница",
 				"github":"#",
-				"filter":"filter-2016  filter-dd"
+				"filter":"filter-2016  filter-dd  filter-shop"
 			},
 			"star":{
 				"link":"/star.html",
@@ -308,7 +308,7 @@
 				"maket":"chesterpub-maket.jpg",
 				"desc":"Главная страница",
 				"github":"#",
-				"filter":"filter-2016  filter-dd"
+				"filter":"filter-2016  filter-dd  filter-shop"
 			},
 			"rkorma":{
 				"link":"/rkorma.html",
@@ -360,7 +360,7 @@
 				"maket":"semena-maket.png",
 				"desc":"Главная страница",
 				"github":"#",
-				"filter":"filter-2015  filter-ic"
+				"filter":"filter-2015  filter-ic  filter-shop"
 			},
 			"domservis57":{
 				"link":"/domservis57.html",
@@ -375,7 +375,7 @@
 			"novieokna":{
 				"link":"/novieokna.html",
 				"name":"Сайт для магазина ПВХ окон «Новые Окна»",
-				"site":"http://novieokna.ru/",
+				"site":"#",
 				"preview":"novieokna-preview.jpg",
 				"maket":"novieokna-maket.png",
 				"desc":"Главная страница",
@@ -390,7 +390,7 @@
 				"maket":"rdservis-maket.png",
 				"desc":"Главная страница",
 				"github":"#",
-				"filter":"filter-2015  filter-ic"
+				"filter":"filter-2015  filter-ic filter-comp"
 			}
 		},
 		"2014":{
@@ -412,7 +412,7 @@
 				"maket":"chydopir-maket.png",
 				"desc":"Главная страница",
 				"github":"#",
-				"filter":"filter-2014  filter-ic"
+				"filter":"filter-2014  filter-ic  filter-shop  filter-comp"
 			},
 			"dormash":{
 				"link":"/dormash.html",
@@ -422,7 +422,7 @@
 				"maket":"dormash-maket.png",
 				"desc":"Главная страница",
 				"github":"#",
-				"filter":"filter-2014  filter-ic"
+				"filter":"filter-2014  filter-ic  filter-comp"
 			},
 			"autoorel":{
 				"link":"/autoorel.html",
@@ -432,7 +432,7 @@
 				"maket":"autoorel-maket.png",
 				"desc":"Главная страница",
 				"github":"#",
-				"filter":"filter-2014  filter-old  filter-ic"
+				"filter":"filter-2014  filter-old  filter-ic  filter-shop"
 			},
 			"oltadi":{
 				"link":"/oltadi.html",
@@ -442,7 +442,7 @@
 				"maket":"oltadi-maket.png",
 				"desc":"Главная страница",
 				"github":"#",
-				"filter":"filter-2014  filter-ic"
+				"filter":"filter-2014  filter-ic  filter-shop"
 			},
 			"slon":{
 				"link":"/slon.html",
@@ -482,7 +482,7 @@
 				"maket":"zenit-orel-old-maket.png",
 				"desc":"Главная страница",
 				"github":"#",
-				"filter":"filter-2014  filter-old  filter-ic"
+				"filter":"filter-2014  filter-old  filter-ic  filter-comp"
 			}
 		},
 		"2013":{
@@ -494,7 +494,7 @@
 				"maket":"noskiorel-maket.png",
 				"desc":"Главная страница",
 				"github":"#",
-				"filter":"filter-2013  filter-ic"
+				"filter":"filter-2013  filter-ic  filter-shop"
 			},
 			"enich":{
 				"link":"/enich.html",
@@ -504,7 +504,7 @@
 				"maket":"enich-maket.png",
 				"desc":"Главная страница",
 				"github":"#",
-				"filter":"filter-2013  filter-ic  filter-old"
+				"filter":"filter-2013  filter-ic  filter-old  filter-comp"
 			},
 			"olympicschool":{
 				"link":"/olympicschool.html",
@@ -551,21 +551,21 @@
 			"rosto":{
 				"link":"/rosto.html",
 				"name":"Сайт для учебного центра ДОСААФ России",
-				"site":"http://www.rosto-orel.ru/",
+				"site":"#",
+				"github":"#",
 				"preview":"rosto-preview.jpg",
 				"maket":"rosto-maket.png",
 				"desc":"Главная страница",
-				"github":"#",
 				"filter":"filter-2012  filter-old  filter-ic"
 			},
 			"classicstom":{
 				"link":"/classicstom.html",
 				"name":"Сайт для стоматологической клиники «Классик»",
-				"site":"http://classic-stom.ru/",
+				"site":"#",
+				"github":"#",
 				"preview":"classicstom-preview.jpg",
 				"maket":"classicstom-maket.png",
 				"desc":"Главная страница",
-				"github":"#",
 				"filter":"filter-2012  filter-old  filter-ic"
 			}
 		}

@@ -63,6 +63,11 @@
 					letter-spacing: 1.4vw;
 				}
 			}
+			&.is--white{
+				&::after{
+					color: fadeout(@blue-light, 95%);
+				}
+			}
 		}	
 		&.is--page-heading-sm{
 			.heading2();
@@ -87,7 +92,16 @@
 					height: 2px;
 					background-color: @b-color-a;
 				}
+				&.is--white{
+					&::before{
+						background-color: @white;
+					}
+
+				}
 			}
+		}
+		&.is--white{
+			color: @white;
 		}
 		&.is--center{
 			text-align: center;
@@ -100,38 +114,6 @@
 		&.is--reviews-heading{
 			text-align: center;
 		}	
-		&.is--country-panel,
-		&.is--programm-panel{
-			font-weight: 500;
-			color: @blue;
-		}
-		//old
-		&.is--heading-panel{
-			font-family: @page_header_ff;
-			.calcFontSize(90, 140, 320, 1680);
-			.calcLineHeight(64, 100, 320, 1680);
-			font-weight: 400;
-		}
-		&.is--heading{
-		}
-		&.is--products-card{
-			font-family: @b-ff-2;
-			.calcFontSize(60, 94, 320, 1680);
-			.calcLineHeight(30, 60, 320, 1680);	
-			font-weight: 400;		
-		}
-		&.is--panel{
-			font-family: @b-ff-2;
-			.calcFontSize(60, 114, 320, 1680);
-			.calcLineHeight(30, 80, 320, 1680);	
-			font-weight: 400;		
-		}
-		&.is--modals{
-			font-weight: 400;
-			.calcFontSize(24, 34, 320, 1680);
-			.calcLineHeight(24, 34, 320, 1680);	
-			color: @b-color-a;
-		}
 	}
 	&heading-small{
 		.calcFontSize(19, 23, 320, 1680);

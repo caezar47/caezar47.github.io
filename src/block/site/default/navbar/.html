@@ -12,11 +12,17 @@
 							</button>
 						</div>
 					</div>
+					<div class="cols {{navbar_prefix}}cols-header">
+						<a href="{{page.portfolio}}" class="{{navbar_prefix}}nav-icon">[[azbntple tpl="/src/block/site/default/svg-sprite/.html" icon-name="navbar-portfolio" ]]</a>
+					</div>
 					<div class="cols {{navbar_prefix}}cols-header  is--brand">
 						<a class="{{navbar_prefix}}brand  {{navbar_scrollto}}" href="{{navbar_link}}#index-header"><img src="{{url-path-img}}/default/logotip.jpg" alt=""></a>
 					</div>
-					<div class="cols {{navbar_prefix}}cols-header  is--tel">
-						<a href="tel:{{contacts.phone_tel}}" class="{{navbar_prefix}}tel  is--icon">[[azbntple tpl="/src/block/site/default/svg-sprite/.html" icon-name="contacts-tel" ]]</a>
+					<div class="cols {{navbar_prefix}}cols-header">
+						<a href="mailto:{{contacts.email}}" class="{{navbar_prefix}}nav-icon  is--email">[[azbntple tpl="/src/block/site/default/svg-sprite/.html" icon-name="contacts-email" ]]</a>
+					</div>
+					<div class="cols {{navbar_prefix}}cols-header">
+						<a href="tel:{{contacts.phone_tel}}" class="{{navbar_prefix}}nav-icon  is--tel">[[azbntple tpl="/src/block/site/default/svg-sprite/.html" icon-name="contacts-tel" ]]</a>
 					</div>
 				</div>
 			</div>
@@ -36,7 +42,7 @@
 									navbar_link="{{navbar_link}}#index-header"
 									navbar_mod="  "
 									navbar_scrollto="{{navbar_scrollto}}"
-									navbar_diff="0 " 
+									navbar_diff="-90" 
 								]]
 								[[azbntple 
 									tpl="/src/block/site/default/navbar/item.html" 
@@ -45,7 +51,7 @@
 									navbar_link="{{navbar_link}}#index-about"
 									navbar_mod="  "
 									navbar_scrollto="{{navbar_scrollto}}"
-									navbar_diff="0 " 
+									navbar_diff="-90" 
 								]]         
 								[[azbntple 
 									tpl="/src/block/site/default/navbar/item.html" 
@@ -54,7 +60,7 @@
 									navbar_link="{{navbar_link}}#index-skills"
 									navbar_mod="  "
 									navbar_scrollto="{{navbar_scrollto}}"
-									navbar_diff="0 " 
+									navbar_diff="-90" 
 								]]
 								[[azbntple 
 									tpl="/src/block/site/default/navbar/item.html" 
@@ -63,7 +69,7 @@
 									navbar_link="{{navbar_link_portfolio}}"
 									navbar_mod="  "
 									navbar_scrollto="{{navbar_scrollto}}"
-									navbar_diff="0 " 
+									navbar_diff="-90" 
 								]]	
 								[[azbntple 
 									tpl="/src/block/site/default/navbar/item.html" 

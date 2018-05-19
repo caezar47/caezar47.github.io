@@ -25,6 +25,7 @@
 	}
 	&item{
 		padding: 0 @gutter;	
+		margin-bottom: 5px;
 		@media @media-point-notsmart {
 			&.is--right{
 				margin-left: auto;
@@ -39,8 +40,12 @@
 		font-weight: 700;
 		text-transform: uppercase;
 		color: @b-color;
-		letter-spacing: 4.5px;
-		padding: 5px 25px;
+		padding: 5px 20px;
+		letter-spacing: 2px;
+		@media @media-point-screen {
+			padding: 5px 25px;
+			letter-spacing: 4.5px;
+		}
 		&.is--dropdown{
 			.btn-clearfix();
 			&::before{
@@ -82,7 +87,7 @@
 		margin-top: 11px;
 		left: inherit;
 		background-color: @red;
-		right: 15px;
+		left: 15px;
 		padding: 0;
 		min-width: 93px;
 	}

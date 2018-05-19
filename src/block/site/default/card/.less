@@ -15,6 +15,11 @@
 		&.is--portfolio-link{
 			padding-left: 55px;
 		}
+		&.is--skills{
+			@media @media-point-screen {
+				margin-bottom: 2vw;
+			}
+		}
 	}
 	&inner{
 		transition: @trs-site;		
@@ -99,6 +104,50 @@
 				height: 30px;
 			}
 		}	
+		&.is--skills{
+			width: 100px;
+			height: 100px;
+			margin: 0 auto 20px;
+			&.skills-html{
+				color: #d6550e;
+			}
+			&.skills-css{
+				color: #3571bb;
+			}
+			&.skills-js{
+				color: #eac300;
+			}
+			&.skills-php{
+				color: #707dbf;
+			}
+			&.skills-jquery{
+				color: #db4d40;
+			}
+			&.skills-less{
+				color: #1c2a58;
+			}
+			&.skills-sql{
+				color: #295f92;
+			}
+			&.skills-github{
+				color: #2e2d2c;
+			}
+			&.skills-bootstrap{
+				color: #723fca;
+			}
+			&.skills-cms{
+				color: #3673a6;
+			}
+			&.skills-pixel{
+				color: #87cbac;
+			}
+			&.skills-responsive{
+				color: #f2ae00;
+			}
+			&.skills-gulp{
+				color: #d9534c;
+			}
+		}
 		&.is--portfolio-link{
 			position: absolute;
 			top: 50%;
@@ -182,6 +231,12 @@
 				font-weight: 700;
 			}
 		}
+		&.is--skills{
+			text-align: center;
+			color: @white;
+			.heading4();
+			font-weight: 700;
+		}
 		&.is--portfolio{
 			color: @white;
 			.calcFontSize(19, 23, 320, 1680);
@@ -219,7 +274,8 @@
 	&date{
 		&.is--about{
 			&.is--experience{
-				font-size: @b-fs + 6;
+				//font-size: @b-fs + 6;
+				.calcFontSize(18, 22, 320, 1680);
 				line-height: @b-lh - 5;
 				color: @grey;   
 				padding-top: 10px;

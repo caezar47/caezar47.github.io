@@ -7,15 +7,12 @@
 			description=" "
 		]] 		
 	</head>
-	<body class="is--navbar-bottom"> 
+	<body class="is--navbar-bottom"> 		 
 		[[azbntple 
-			tpl="/src/block/site/default/navbar/.html"
-			class="navbar-site scroll"
-			navbar_prefix="navbar__"   
-			navbar_mod="  "
-		]] 	  
+			tpl="/src/block/site/default/navbar/include-second.html"
+		]]	  
 		[[azbntple  
-			tpl="/src/block/site/page/style/.html"
+			tpl="/src/block/site/page/panel-style.html"
 			block_prefix="style-page__"      
 		]]	
 		[[azbntple 
@@ -23,7 +20,7 @@
 			footer_prefix="footer__" 
 		]]
 		[[azbntple 
-			tpl="/src/block/site/default/modals/message.html"
+			tpl="8/src/block/site/default/modals/message.html"
 			modals_prefix="modal-base__" 
 			modals_id="modal-message"
 			modals_mod="  "
@@ -31,7 +28,5 @@
 			modals_note="Мы свяжемся с вами в ближайшее время."
 		]]
 		[[azbntple tpl="/src/block/site/default/script/script.html" ]]
-		[[azbntple tpl="/src/block/site/default/script/fancybox3.html" ]]
-		[[azbntple tpl="/src/block/site/default/script/slick.html" ]]
 	</body>
 </html>

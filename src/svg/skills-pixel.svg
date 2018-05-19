@@ -1,0 +1,14 @@
+<svg width="125" height="142" viewBox="0 0 125 142" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 0L12 126.5L61 141.5L112 126.5L125 0H0Z"/>
+<path d="M0 24.8889H7.04V80H0V24.8889Z" transform="translate(41 22)" fill="white"/>
+<path d="M36.96 24.8889H44V80H36.96V24.8889Z" transform="translate(41 22)" fill="white"/>
+<path d="M40.48 24.8889V32H4.39998V24.8889H40.48Z" transform="translate(41 22)" fill="white"/>
+<path d="M44 14.2222V20.4444H0V14.2222H44Z" transform="translate(41 22)" fill="white"/>
+<path d="M44 0V11.5556H0V0H44Z" transform="translate(41 22)" fill="white"/>
+<path d="M38.7202 74.6667V80.0001L7.04 80L7.04021 74.6667H38.7202Z" transform="translate(41 22)" fill="white"/>
+<path d="M36.96 80V85.3333H7.03996L7.04 80H36.96Z" transform="translate(41 22)" fill="white"/>
+<path d="M24.6401 87.1111V96H19.3601V87.1111H24.6401Z" transform="translate(41 22)" fill="white"/>
+<path d="M31.6802 85.3333V90.6666H12.3202V85.3333H31.6802Z" transform="translate(41 22)" fill="white"/>
+<path d="M12 31H19V77H12V31Z" transform="translate(41 22)" fill="white"/>
+<path d="M25 31H32V77H25V31Z" transform="translate(41 22)" fill="white"/>
+</svg>

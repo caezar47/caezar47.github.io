@@ -4,16 +4,18 @@
 			<li class="{{block_prefix}}item  {{block_mod}}  active">
 				<a class="{{block_prefix}}link  {{block_mod}}" href="#" data-filter="*"><span>В</span>се</a>
 			</li>
-			<li class="{{block_prefix}}item  {{block_mod}}">
-				<a class="{{block_prefix}}link  {{block_mod}}" href="#" data-filter=".filter-responsive"><span>А</span>даптивные сайты</a>
+			<li class="{{block_prefix}}item  {{block_mod}}  dropdown">
+				<button class="{{block_prefix}}link  is--dropdown  {{block_mod}}" type="button" data-toggle="dropdown"><span>Т</span>ип сайта</button>
+				<ul class="{{block_prefix}}dropdown-menu  dropdown-menu" role="menu" aria-labelledby="dLabel">
+					<li class="{{block_prefix}}dropdown-item  {{block_mod}}">
+						<a class="{{block_prefix}}dropdown-link  {{block_mod}}" href="#" data-filter=".filter-shop">Интернет-магазины</a>
+					</li>
+					<li class="{{block_prefix}}dropdown-item  {{block_mod}}">
+						<a class="{{block_prefix}}dropdown-link  {{block_mod}}" href="#" data-filter=".filter-comp">Корпоративный</a>
+					</li>
+				</ul>
 			</li>
-			<li class="{{block_prefix}}item  {{block_mod}}">
-				<a class="{{block_prefix}}link  {{block_mod}}" href="#" data-filter=".filter-dev"><span>В</span> разработке</a>
-			</li>
-			<li class="{{block_prefix}}item  {{block_mod}}">
-				<a class="{{block_prefix}}link  {{block_mod}}" href="#" data-filter=".filter-old"><span>С</span>тарые версии</a>
-			</li>
-			<li class="{{block_prefix}}item  {{block_mod}}  is--right  dropdown">
+			<li class="{{block_prefix}}item  {{block_mod}}  dropdown">
 				<button class="{{block_prefix}}link  is--dropdown  {{block_mod}}" type="button" data-toggle="dropdown">Студия</button>
 				<ul class="{{block_prefix}}dropdown-menu  dropdown-menu" role="menu" aria-labelledby="dLabel">
 					<li class="{{block_prefix}}dropdown-item  {{block_mod}}">
@@ -49,6 +51,12 @@
 						<a class="{{block_prefix}}dropdown-link  {{block_mod}}" href="#" data-filter=".filter-2012">2012</a>
 					</li>
 				</ul>
+			</li>
+			<li class="{{block_prefix}}item  {{block_mod}}  is--right">
+				<a class="{{block_prefix}}link  {{block_mod}}" href="#" data-filter=".filter-dev"><span>В</span> разработке</a>
+			</li>
+			<li class="{{block_prefix}}item  {{block_mod}}">
+				<a class="{{block_prefix}}link  {{block_mod}}" href="#" data-filter=".filter-old"><span>С</span>тарые версии</a>
 			</li>
 		</ul>
 	</div>

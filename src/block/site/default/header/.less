@@ -2,13 +2,12 @@
 	&block{
 		position: relative;
 		color: @white;
-		//max-height: 860px;
-		//@media @media-size-xs {
-			//display: none;
-		//}	
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
+		@media @media-point-smart {
+			min-height: ~"calc(100vh - @{navbar-device})";			
+		}
 		@media @media-point-tablet {
 			height: 430px;			
 		}
@@ -32,9 +31,12 @@
 		top: 50%;
 		left: 0;
 		width: 100%; 
+		transform: translateY(-50%);
+		@media @media-point-xs {
+			//top: 15%;
+		}
 		@media @media-point-notsmart {
 			top: 65.5%;			
-			transform: translateY(-50%);
 		}
 	}
 	&inner{
@@ -59,11 +61,12 @@
 		text-transform: uppercase;
 		.calcFontSize(22, 32, 320, 1680);
 		.calcLineHeight(24, 34, 320, 1680);
-		margin-bottom: 35px;
+		margin-bottom: 20px;
 		font-weight: 700;
 		letter-spacing: 4px;
 		@media @media-point-screen {
 			letter-spacing: .575vw;
+			margin-bottom: 35px;
 		}
 	}
 	&scrollto{
