@@ -16,19 +16,17 @@
 			header="{{block_heading}}"
 		]]
 		<div class="{{content_prefix}}elem  {{content_mod}}">
-			<div class="{{content_prefix}}row row  is--gutter  is--wrap  is--aic  {{content_mod}}">
+			<div class="{{content_prefix}}row row  is--gutter  is--wrap  is--aic  is--jcsb  {{content_mod}}">
 				<div class="{{content_prefix}}cols cols  {{content_mod}}">
-					[[azbntple  
-						tpl="/src/block/site/default/card/card-portfolio-link.html"
-						block_prefix="card__"
-						block_mod="is--portfolio-link  is--site"
-						block_site="{{portfolio.2014.altinbay.site}}"
-						block_heading="Перейти на сайт"
-						block_link="{{block_site}}"
-						block_logo="icon-link"
+					[[azbntple 
+						tpl="/src/block/site/default/button/link-target.html"
+						button_prefix="btn__" 
+						button_mod="is--lg"
+						button_link="{{block_site}}"
+						button_name="Перейти на сайт"
 					]]
 				</div>
-				<div class="{{content_prefix}}cols cols  {{content_mod}}">
+				<!--<div class="{{content_prefix}}cols cols  {{content_mod}}">
 					[[azbntple  
 						tpl="/src/block/site/default/card/card-portfolio-link.html"
 						block_prefix="card__"
@@ -38,7 +36,7 @@
 						block_link="{{block_github}}"
 						block_logo="skills-github"
 					]]
-				</div>
+				</div>-->
 				<div class="{{content_prefix}}cols cols  is--studio  {{content_mod}}">
 					[[azbntple  
 						tpl="/src/block/site/default/card/card-portfolio-studio.html"

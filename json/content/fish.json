@@ -14,10 +14,17 @@
 		"edu_vpo_year":"2012 – 2016 гг.",   
 		"edu_vpo":"<p><b>Орловский филиал ФГБОУ ВПО «Российская академия народного хозяйства и государственной службы при Президенте Российской Федерации».</b></p><p>Направление: «Государственное и муниципальное управление».</p><p>Бакалавр</p><p>Закончен с отличием.</p>",
 		"experience":{
+			"fed":{
+				"logo":"firm-fed",
+				"heading":"ООО «ФОН» г.&nbsp;Орёл",
+				"date":"oктябрь 2018 – настоящее время",
+				"post":"Web-программист (front-end)",
+				"link":"https://fedoperator.ru/"
+			},
 			"dd":{
 				"logo":"firm-dd",
 				"heading":"Студия дизайна Александра Дорохова г.&nbsp;Орёл",
-				"date":"январь 2016 – настоящее время",
+				"date":"январь 2016 – oктябрь 2018",
 				"post":"Web-программист (front-end)",
 				"link":"http://dorohovdesign.ru/"
 			},
@@ -43,9 +50,11 @@
 		}
 	},
 	"contacts":{
-		"name":"beinternational",
+		"name":"Front-end developer Иванов Сергей Сергеевич",
 		"domain":"caezar47.github.io",
+		"domain":"caezar47.ru",
 		"domain_link":"https://caezar47.github.io/",
+		"domain_link":"http://caezar47.ru/",
 		"agreement_page":"agreement",
 		"copyright":"",
 		"email":"iss47@ya.ru",

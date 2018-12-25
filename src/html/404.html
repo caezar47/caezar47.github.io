@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ru-RU"> 
+	<head>
+		[[azbntple 
+			tpl="/src/block/site/default/head/.html" 
+			title="  "
+			description="  "
+		]] 		
+	</head>
+	<body> 
+		[[azbntple 
+			tpl="/src/block/site/default/navbar/include-second.html"
+		]]
+		[[azbntple  
+			tpl="/src/block/site/page/404.html"
+			content_prefix="content-block__"
+			content_mod="is--404"
+			block_bread_mod="is--center"
+			block_heading_mod="is--page-heading  is--center"
+			block_heading="Страница не найдена"
+			block_heading_level="h1"   
+		]]
+		[[azbntple 
+			tpl="/src/block/site/default/footer/.html"
+			footer_prefix="footer__" 
+			block_id="index-footer"
+		]]		
+		[[azbntple tpl="/src/block/site/default/script/script.html" ]]
+	</body>
+</html>

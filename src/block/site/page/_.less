@@ -93,6 +93,11 @@
 			}
 		}
 		//page's
+		&.is--portfolio-card{
+			@media @media-point-device {
+				padding-bottom: 20px;
+			}
+		}
 	}
 	&elem{
 		margin-bottom: 35px;
@@ -167,8 +172,11 @@
 
 		}
 		&.is--portfolio-card{
+			@media @media-point-xxs {
+				.makeCols(12, 12);
+			}
 			&.is--studio{
-				margin-left: auto;
+				//margin-left: auto;
 			}
 		}
 		&.is--skills{
