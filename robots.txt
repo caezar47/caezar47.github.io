@@ -1,2 +1,13 @@
 User-agent: *
-Disallow: /
+Allow: /index.html
+Disallow: /*.html
+
+User-agent: Yandex
+Allow: /index.html
+Disallow: /*.html
+
+User-agent: Googlebot
+Allow: /index.html
+Disallow: /*.html
+
+Host: http://caezar47.ru/
