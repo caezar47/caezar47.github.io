@@ -73,6 +73,76 @@
 	},	
 	"portfolio":{
 		"2018":{
+			"ivorywed":{
+				"link":"/ivorywed.html",
+				"name":"Сайт для cвадебного салона",
+				"desc1":"Главная страница",
+				"site":"http://ivorywed.ru/",
+				"preview":"ivorywed-preview.jpg",
+				"maket":"ivorywed-maket.jpg",
+				"github":"#",
+				"filter":"filter-2018  filter-dd"
+			},
+			"pool":{
+				"link":"/pool.html",
+				"name":"Промо сайт для компании «Бюро бассейнов»",
+				"desc1":"Главная страница",
+				"site":"https://xn----8sbbbgr2a6adgoqa9o.xn--p1ai/",
+				"preview":"pool-preview.jpg",
+				"maket":"pool-maket.jpg",
+				"github":"#",
+				"filter":"filter-2018  filter-dd"
+			},
+			"logistica":{
+				"link":"/logistica.html",
+				"name":"Корпоративный сайт для транспортной компании «Терра Логистика»",
+				"desc1":"Главная страница",
+				"site":"http://terra-logistica.ru/",
+				"preview":"logistica-preview.jpg",
+				"maket":"logistica-maket.jpg",
+				"github":"#",
+				"filter":"filter-2018  filter-dd  filter-comp"
+			},
+			"esbvolga":{
+				"link":"/esbvolga.html",
+				"name":"Корпоративный сайт для компании «Энергосбыт Волга»",
+				"desc1":"Главная страница",
+				"site":"http://www.esbvolga.ru/",
+				"preview":"esbvolga-preview.jpg",
+				"maket":"esbvolga-maket.jpg",
+				"github":"#",
+				"filter":"filter-2018  filter-dd  filter-comp"
+			},
+			"garantorel":{
+				"link":"/garantorel.html",
+				"name":"Сайт для юридического центра Гарант",
+				"desc1":"Главная страница",
+				"site":"http://garantorel.ru/",
+				"preview":"garantorel-preview.jpg",
+				"maket":"garantorel-maket.jpg",
+				"github":"#",
+				"filter":"filter-2018  filter-dd  filter-comp"
+			},
+			"oknastroy":{
+				"link":"/oknastroy.html",
+				"name":"Корпоративный сайт компании «ОкнаСтрой»",
+				"desc1":"Главная страница",
+				"site":"http://xn--80asbmddnhj.xn--80adxhks/",
+				"preview":"oknastroy-preview.jpg",
+				"maket":"oknastroy-maket.jpg",
+				"github":"#",
+				"filter":"filter-2018  filter-dd"
+			},
+			"aegospotami":{
+				"link":"/aegospotami.html",
+				"name":"Сайт для коллекционеров метеоритов",
+				"desc1":"Главная страница",
+				"site":"http://aegospotami.com/",
+				"preview":"aegospotami-preview.jpg",
+				"maket":"aegospotami-maket.jpg",
+				"github":"#",
+				"filter":"filter-2018  filter-dd"
+			},
 			"orelsau":{
 				"link":"/orelsau.html",
 				"name":"Сайт ФГБОУ ВО Орловский ГАУ",
@@ -85,7 +155,7 @@
 				"maket2":"orelsau-maket2.jpg",
 				"maket3":"orelsau-maket3.jpg",
 				"github":"#",
-				"filter":"filter-2018  filter-dev  filter-dd"
+				"filter":"filter-2018  filter-dd"
 			},
 			"igeba":{
 				"link":"/igeba.html",
@@ -95,7 +165,7 @@
 				"maket":"igeba-cow-maket.jpg",
 				"site":"http://cow.interclean.ru/",
 				"github":"#",
-				"filter":"filter-2018  filter-dev  filter-dd"
+				"filter":"filter-2018  filter-dd"
 			},
 			"korsun":{
 				"link":"/korsun.html",
@@ -119,7 +189,7 @@
 				"maket2":"interrao-maket2.jpg",
 				"maket3":"interrao-maket3.jpg",
 				"github":"#",
-				"filter":"filter-2018  filter-dev  filter-dd  filter-comp"
+				"filter":"filter-2018  filter-dd  filter-comp"
 			},
 			"superpizzaplus":{
 				"link":"/superpizzaplus.html",
