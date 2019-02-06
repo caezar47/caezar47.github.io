@@ -73,6 +73,46 @@
 	},	
 	"portfolio":{
 		"2018":{
+			"gk":{
+				"link":"/gk.html",
+				"name":"Сайт партнера продаж застройщика «ГИК»",
+				"desc1":"Главная страница",
+				"site":"https://gk-23.ru/",
+				"preview":"gk-preview.jpg",
+				"maket":"gk-maket.jpg",
+				"github":"#",
+				"filter":"filter-2018  filter-fed"
+			},
+			"ask":{
+				"link":"/ask.html",
+				"name":"Сайт партнера продаж застройщика «АСК»",
+				"desc1":"Главная страница",
+				"site":"https://ask-ug.ru/",
+				"preview":"ask-preview.jpg",
+				"maket":"ask-maket.jpg",
+				"github":"#",
+				"filter":"filter-2018  filter-fed"
+			},
+			"vposad":{
+				"link":"/vposad.html",
+				"name":"Сайт духовно-православного центра «Вятский Посад»",
+				"desc1":"Главная страница",
+				"site":"http://vposad.ru/",
+				"preview":"vposad-preview.jpg",
+				"maket":"vposad-maket.jpg",
+				"github":"#",
+				"filter":"filter-2018  filter-dd  filter-old"
+			},
+			"gsinv":{
+				"link":"/gsinv.html",
+				"name":"Корпоративный сайт для строительной компании «ЖИЛСТРОЙ-Инвест»",
+				"desc1":"Главная страница",
+				"site":"http://gsinv.ru/",
+				"preview":"gsinv-preview.jpg",
+				"maket":"gsinv-maket.jpg",
+				"github":"#",
+				"filter":"filter-2018  filter-dd  filter-comp"
+			},
 			"ivorywed":{
 				"link":"/ivorywed.html",
 				"name":"Сайт для cвадебного салона",
