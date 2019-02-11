@@ -97,7 +97,7 @@
 				"link":"/vposad.html",
 				"name":"Сайт духовно-православного центра «Вятский Посад»",
 				"desc1":"Главная страница",
-				"site":"http://vposad.ru/",
+				"site":"#",
 				"preview":"vposad-preview.jpg",
 				"maket":"vposad-maket.jpg",
 				"github":"#",
@@ -192,8 +192,6 @@
 				"site":"http://www.orelsau.ru/",
 				"preview":"orelsau-preview.jpg",
 				"maket":"orelsau-maket.jpg",
-				"maket2":"orelsau-maket2.jpg",
-				"maket3":"orelsau-maket3.jpg",
 				"github":"#",
 				"filter":"filter-2018  filter-dd"
 			},

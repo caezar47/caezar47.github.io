@@ -1,5 +1,13 @@
-<div class="{{content_prefix}}panel  {{content_mod}}"  id="{{block_id}}">
+<div class="{{content_prefix}}panel  {{content_mod}}">
 	<div class="{{content_prefix}}container container  {{content_mod}}">
+		[[azbntple 
+			tpl="/src/block/site/default/breadcrumb/level2.html" 
+			bread_prefix="breadcrumb__"
+			bread_mod="  "
+			level_1="Портфолио"
+			level_1_link="/portfolio.html"
+			level_2="{{block_heading}}"
+		]]
 		[[azbntple 
 			tpl="/src/block/site/default/page-header/heading.html" 
 			header_prefix="page-header__" 
@@ -7,31 +15,48 @@
 			header_level="h1"
 			header="{{block_heading}}"
 		]]
-		<div class="{{content_prefix}}elem  {{content_mod}}">		
-			<a href="{{block_site}}" target="_blank" class="{{content_prefix}}site  {{content_mod}}">
-				<div class="{{content_prefix}}site-icon  {{content_mod}}">
-					[[azbntple tpl="/src/block/site/default/svg-sprite/.html" icon-name="icon-link" ]]
-				</div>
-				Перейти на сайт
-			</a>
-		</div> 
 		<div class="{{content_prefix}}elem  {{content_mod}}">
-			<a href="{{block_site}}" target="_blank" class="{{content_prefix}}site  {{content_mod}}">
-				<div class="{{content_prefix}}site-icon  {{content_mod}}">
-					[[azbntple tpl="/src/block/site/default/svg-sprite/.html" icon-name="skills-github" ]]
+			<div class="{{content_prefix}}row row  is--gutter  is--wrap  is--aic  is--jcsb  {{content_mod}}">
+				<div class="{{content_prefix}}cols cols  {{content_mod}}">
+					[[azbntple 
+						tpl="/src/block/site/default/button/link-target.html"
+						button_prefix="btn__" 
+						button_mod="is--lg  is--site"
+						button_link="{{block_site}}"
+						button_name="Перейти на сайт"
+					]]
 				</div>
-				Проект на github
-			</a>
+				<!--<div class="{{content_prefix}}cols cols  {{content_mod}}">
+					[[azbntple  
+						tpl="/src/block/site/default/card/card-portfolio-link.html"
+						block_prefix="card__"
+						block_mod="is--portfolio-link  is--github"
+						block_site="{{portfolio.2014.altinbay.site}}"
+						block_heading="Проект на Github"
+						block_link="{{block_github}}"
+						block_logo="skills-github"
+					]]
+				</div>-->
+				<div class="{{content_prefix}}cols cols  is--studio  {{content_mod}}">
+					[[azbntple  
+						tpl="/src/block/site/default/card/card-portfolio-studio.html"
+						block_prefix="card__"
+						block_mod="is--studio  is--{{block_studio_logo}}"
+						block_logo="{{block_studio_logo}}"
+						block_link="{{block_studio_link}}"
+					]]
+				</div>
+			</div>
 		</div>
-	</div>
-
-	
+	</div>	
 	[[azbntple 
-		tpl="/src/block/site/default/page-header/heading.html" 
+		tpl="8/src/block/site/default/page-header/heading.html" 
 		header_prefix="page-header__" 
 		header_mod="is--center  is--portfolio"
 		header_level="h2"
-		header="{{block_desc1}}"
+		header="{{block_desc}}"
 	]]
-	<img src="{{block_maket}}" alt="{{block_heading}}" class="img-responsive  {{content_prefix}}preview  {{content_mod}}">
+	<div class="{{content_prefix}}preview  {{content_mod}}">
+		<img src="{{block_maket}}" alt="{{block_heading}}" class="img-responsive  {{content_prefix}}preview  {{content_mod}}">
+	</div>
 </div>
