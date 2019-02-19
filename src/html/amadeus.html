@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ru-RU"> 
+	<head>
+		[[azbntple 
+			tpl="/src/block/site/default/head/.html" 
+			title=" "
+			description=" "
+		]] 		
+	</head>
+	<body> 
+		[[azbntple 
+			tpl="/src/block/site/default/navbar/include-second.html"
+		]]
+		[[azbntple  
+			tpl="/src/block/site/page/panel-portfolio-landing.html"
+			content_prefix="content-block__"
+			content_mod="is--portfolio-card"
+			block_heading_mod="is--page-heading"
+			block_heading="{{portfolio.2019.amadeus.name}}"  
+			block_maket="<img src='{{url-path-img}}/portfolio/amadeus-maket1.jpg' alt='' class='img-responsive'><img src='{{url-path-img}}/portfolio/amadeus-maket2.jpg' alt='' class='img-responsive'><img src='{{url-path-img}}/portfolio/amadeus-maket3.jpg' alt='' class='img-responsive'><img src='{{url-path-img}}/portfolio/amadeus-maket4.jpg' alt='' class='img-responsive'><img src='{{url-path-img}}/portfolio/amadeus-maket5.jpg' alt='' class='img-responsive'><img src='{{url-path-img}}/portfolio/amadeus-maket6.jpg' alt='' class='img-responsive'><img src='{{url-path-img}}/portfolio/amadeus-maket7.jpg' alt='' class='img-responsive'><img src='{{url-path-img}}/portfolio/amadeus-maket8.jpg' alt='' class='img-responsive'><img src='{{url-path-img}}/portfolio/amadeus-maket9.jpg' alt='' class='img-responsive'><img src='{{url-path-img}}/portfolio/amadeus-maket10.jpg' alt='' class='img-responsive'><img src='{{url-path-img}}/portfolio/amadeus-maket11.jpg' alt='' class='img-responsive'>"
+			block_site="{{portfolio.2019.amadeus.site}}"
+			block_github="{{portfolio.2019.amadeus.github}}"
+			block_studio_logo="hidden"
+			block_studio_link="{{info.experience.fed.link}}"
+		]]
+		[[azbntple 
+			tpl="/src/block/site/default/footer/.html"
+			footer_prefix="footer__" 
+			block_id="index-footer"
+		]]		
+		[[azbntple tpl="/src/block/site/default/script/script.html" ]]
+	</body>
+</html>

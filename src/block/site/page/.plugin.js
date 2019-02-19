@@ -26,7 +26,7 @@
         prefixed;
 
     // test standard property first
-    if ( typeof style[propName] === 'string' ) {
+    if ( typeof style[propName] === 'string' ) { 
       return propName;
     }
 

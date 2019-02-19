@@ -72,7 +72,38 @@
 		"portfolio":"/portfolio.html"
 	},	
 	"portfolio":{
+		"2019":{
+			"fedoperator":{
+				"link":"/fedoperator.html",
+				"name":"Корпоративный сайт для компании «Федоператор»",
+				"desc1":"Главная страница",
+				"site":"https://fedoperator.ru/",
+				"preview":"fedoperator-preview.jpg",
+				"maket":"fedoperator-maket.jpg",
+				"github":"#",
+				"filter":"filter-2019  filter-dev  filter-fed"
+			},	
+			"amadeus":{
+				"link":"/amadeus.html",
+				"name":"Интернет-магазин трикотажных изделий «Amadeus Family»",
+				"site":"https://amadeus-family.ru/",
+				"preview":"amadeus-preview.jpg",
+				"maket":"amadeus-maket.jpg",
+				"github":"#",
+				"filter":"filter-2019  filter-site"
+			}
+		},
 		"2018":{
+			"ssk":{
+				"link":"/ssk.html",
+				"name":"Сайт партнера продаж застройщика «ССК»",
+				"desc1":"Главная страница",
+				"site":"https://skuban.ru/",
+				"preview":"ssk-preview.jpg",
+				"maket":"ssk-maket.jpg",
+				"github":"#",
+				"filter":"filter-2018  filter-fed"
+			},
 			"gk":{
 				"link":"/gk.html",
 				"name":"Сайт партнера продаж застройщика «ГИК»",
