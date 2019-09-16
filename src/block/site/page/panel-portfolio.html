@@ -15,7 +15,29 @@
 			content_prefix="{{content_prefix}}"
 			content_mod="{{content_mod}}"
 		]]
-		<div id="portfolio_wrapper" class="{{content_prefix}}row row  is--wrap  is--gutter  {{content_mod}}">		
+		<div class="{{content_prefix}}row row  is--wrap  is--gutter  {{content_mod}}">		
+			[[azbntple 
+				tpl="/src/block/site/default/card/card-portfolio.html" 
+				block_prefix="card__"
+				block_mod="is--portfolio"
+				content_prefix="{{content_prefix}}"
+				content_mod="{{content_mod}}"
+				block_filter="{{portfolio.2019.novostroy.filter}}"
+				block_link="{{portfolio.2019.novostroy.link}}"
+				block_preview="{{portfolio.2019.novostroy.preview}}"
+				block_heading="{{portfolio.2019.novostroy.name}}"
+			]]			
+			[[azbntple 
+				tpl="/src/block/site/default/card/card-portfolio.html" 
+				block_prefix="card__"
+				block_mod="is--portfolio"
+				content_prefix="{{content_prefix}}"
+				content_mod="{{content_mod}}"
+				block_filter="{{portfolio.2019.fedexpert.filter}}"
+				block_link="{{portfolio.2019.fedexpert.link}}"
+				block_preview="{{portfolio.2019.fedexpert.preview}}"
+				block_heading="{{portfolio.2019.fedexpert.name}}"
+			]]		
 			[[azbntple 
 				tpl="/src/block/site/default/card/card-portfolio.html" 
 				block_prefix="card__"

@@ -99,16 +99,16 @@
 	<div class="tabs__nav-wrap  is--portfolio">
 		<ul class="tabs__nav  is--portfolio">
 			<li class="tabs__item  is--portfolio  active">
-				<a class="tabs__link  is--portfolio" href="#" data-filter="*"><span>В</span>се</a>
+				<a class="tabs__link  is--portfolio" href="#" data-filter="all"><span>В</span>се</a>
 			</li>
 			<li class="tabs__item  is--portfolio  dropdown">
 				<button class="tabs__link  is--dropdown  is--portfolio" type="button" data-toggle="dropdown"><span>Т</span>ип сайта</button>
 				<ul class="tabs__dropdown-menu  dropdown-menu" role="menu" aria-labelledby="dLabel">
 					<li class="tabs__dropdown-item  is--portfolio">
-						<a class="tabs__dropdown-link  is--portfolio" href="#" data-filter=".filter-shop">Интернет-магазины</a>
+						<a class="tabs__dropdown-link  is--portfolio" href="#" data-filter="filter-shop">Интернет-магазины</a>
 					</li>
 					<li class="tabs__dropdown-item  is--portfolio">
-						<a class="tabs__dropdown-link  is--portfolio" href="#" data-filter=".filter-comp">Корпоративный</a>
+						<a class="tabs__dropdown-link  is--portfolio" href="#" data-filter="filter-comp">Корпоративный</a>
 					</li>
 				</ul>
 			</li>
@@ -116,13 +116,13 @@
 				<button class="tabs__link  is--dropdown  is--portfolio" type="button" data-toggle="dropdown">Студия</button>
 				<ul class="tabs__dropdown-menu  dropdown-menu" role="menu" aria-labelledby="dLabel">
 					<li class="tabs__dropdown-item  is--portfolio">
-						<a class="tabs__dropdown-link  is--portfolio" href="#" data-filter=".filter-fed">Fedoperator.ru</a>
+						<a class="tabs__dropdown-link  is--portfolio" href="#" data-filter="filter-fed">Fedoperator.ru</a>
 					</li>
 					<li class="tabs__dropdown-item  is--portfolio">
-						<a class="tabs__dropdown-link  is--portfolio" href="#" data-filter=".filter-dd">Dorohov.disign</a>
+						<a class="tabs__dropdown-link  is--portfolio" href="#" data-filter="filter-dd">Dorohov.disign</a>
 					</li>
 					<li class="tabs__dropdown-item  is--portfolio">
-						<a class="tabs__dropdown-link  is--portfolio" href="#" data-filter=".filter-ic">Info-city</a>
+						<a class="tabs__dropdown-link  is--portfolio" href="#" data-filter="filter-ic">Info-city</a>
 					</li>
 				</ul>
 			</li>
@@ -130,42 +130,72 @@
 				<button class="tabs__link  is--dropdown  is--portfolio" type="button" data-toggle="dropdown">Год</button>
 				<ul class="tabs__dropdown-menu  dropdown-menu" role="menu" aria-labelledby="dLabel">
 					<li class="tabs__dropdown-item  is--portfolio">
-						<a class="tabs__dropdown-link  is--portfolio" href="#" data-filter=".filter-2019">2019</a>
+						<a class="tabs__dropdown-link  is--portfolio" href="#" data-filter="filter-2019">2019</a>
 					</li>
 					<li class="tabs__dropdown-item  is--portfolio">
-						<a class="tabs__dropdown-link  is--portfolio" href="#" data-filter=".filter-2018">2018</a>
+						<a class="tabs__dropdown-link  is--portfolio" href="#" data-filter="filter-2018">2018</a>
 					</li>
 					<li class="tabs__dropdown-item  is--portfolio">
-						<a class="tabs__dropdown-link  is--portfolio" href="#" data-filter=".filter-2017">2017</a>
+						<a class="tabs__dropdown-link  is--portfolio" href="#" data-filter="filter-2017">2017</a>
 					</li>
 					<li class="tabs__dropdown-item  is--portfolio">
-						<a class="tabs__dropdown-link  is--portfolio" href="#" data-filter=".filter-2016">2016</a>
+						<a class="tabs__dropdown-link  is--portfolio" href="#" data-filter="filter-2016">2016</a>
 					</li>
 					<li class="tabs__dropdown-item  is--portfolio">
-						<a class="tabs__dropdown-link  is--portfolio" href="#" data-filter=".filter-2015">2015</a>
+						<a class="tabs__dropdown-link  is--portfolio" href="#" data-filter="filter-2015">2015</a>
 					</li>
 					<li class="tabs__dropdown-item  is--portfolio">
-						<a class="tabs__dropdown-link  is--portfolio" href="#" data-filter=".filter-2014">2014</a>
+						<a class="tabs__dropdown-link  is--portfolio" href="#" data-filter="filter-2014">2014</a>
 					</li>
 					<li class="tabs__dropdown-item  is--portfolio">
-						<a class="tabs__dropdown-link  is--portfolio" href="#" data-filter=".filter-2013">2013</a>
+						<a class="tabs__dropdown-link  is--portfolio" href="#" data-filter="filter-2013">2013</a>
 					</li>
 					<li class="tabs__dropdown-item  is--portfolio">
-						<a class="tabs__dropdown-link  is--portfolio" href="#" data-filter=".filter-2012">2012</a>
+						<a class="tabs__dropdown-link  is--portfolio" href="#" data-filter="filter-2012">2012</a>
 					</li>
 				</ul>
 			</li>
 			<li class="tabs__item  is--portfolio  is--right">
-				<a class="tabs__link  is--portfolio" href="#" data-filter=".filter-dev"><span>В</span> разработке</a>
+				<a class="tabs__link  is--portfolio" href="#" data-filter="filter-dev"><span>В</span> разработке</a>
 			</li>
 			<li class="tabs__item  is--portfolio">
-				<a class="tabs__link  is--portfolio" href="#" data-filter=".filter-old"><span>С</span>тарые версии</a>
+				<a class="tabs__link  is--portfolio" href="#" data-filter="filter-old"><span>С</span>тарые версии</a>
 			</li>
 		</ul>
 	</div>
 </div>
-		<div id="portfolio_wrapper" class="content-block__row row  is--wrap  is--gutter  is--portfolio">		
-			<div class="content-block__cols cols  is--portfolio  filter-2019  filter-dev  filter-fed">
+		<div class="content-block__row row  is--wrap  is--gutter  is--portfolio">		
+			<div class="content-block__cols cols  is--portfolio  filter-2019  filter-fed" data-item>
+	<a href="/novostroy.html" class="card__item  is--portfolio">	
+		<div class="card__preview  is--portfolio">
+			<img src="/img/portfolio/novostroy-preview.jpg" alt="База новостроек «Федеральный оператор новостройки»" />
+		</div>	
+		<div class="card__bg  is--portfolio">
+			<div class="card__plus  is--portfolio">
+				<svg class="icon-svg icon-plus" role="img">
+	<use xlink:href="/img/svg/sprite.svg#plus"></use>
+</svg>
+			</div>
+			<h3 class="card__heading  is--portfolio">База новостроек «Федеральный оператор новостройки»</h3>
+		</div>
+	</a>
+</div>			
+			<div class="content-block__cols cols  is--portfolio  filter-2019  filter-fed" data-item>
+	<a href="/fedexpert.html" class="card__item  is--portfolio">	
+		<div class="card__preview  is--portfolio">
+			<img src="/img/portfolio/fedexpert-preview.jpg" alt="Корпоративный сайт для союза «Федеральное партнёрство экспертов недвижимости»" />
+		</div>	
+		<div class="card__bg  is--portfolio">
+			<div class="card__plus  is--portfolio">
+				<svg class="icon-svg icon-plus" role="img">
+	<use xlink:href="/img/svg/sprite.svg#plus"></use>
+</svg>
+			</div>
+			<h3 class="card__heading  is--portfolio">Корпоративный сайт для союза «Федеральное партнёрство экспертов недвижимости»</h3>
+		</div>
+	</a>
+</div>		
+			<div class="content-block__cols cols  is--portfolio  filter-2019  filter-fed" data-item>
 	<a href="/fedoperator.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/fedoperator-preview.jpg" alt="Корпоративный сайт для компании «Федоператор»" />
@@ -180,7 +210,7 @@
 		</div>
 	</a>
 </div>		
-			<div class="content-block__cols cols  is--portfolio  filter-2019  filter-site">
+			<div class="content-block__cols cols  is--portfolio  filter-2019  filter-site  filter-dev  filter-shop" data-item>
 	<a href="/amadeus.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/amadeus-preview.jpg" alt="Интернет-магазин трикотажных изделий «Amadeus Family»" />
@@ -195,7 +225,7 @@
 		</div>
 	</a>
 </div>		
-			<div class="content-block__cols cols  is--portfolio  filter-2018  filter-fed">
+			<div class="content-block__cols cols  is--portfolio  filter-2018  filter-fed" data-item>
 	<a href="/ssk.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/ssk-preview.jpg" alt="Сайт партнера продаж застройщика «ССК»" />
@@ -210,7 +240,7 @@
 		</div>
 	</a>
 </div>		
-			<div class="content-block__cols cols  is--portfolio  filter-2018  filter-fed">
+			<div class="content-block__cols cols  is--portfolio  filter-2018  filter-fed" data-item>
 	<a href="/gk.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/gk-preview.jpg" alt="Сайт партнера продаж застройщика «ГИК»" />
@@ -225,7 +255,7 @@
 		</div>
 	</a>
 </div>
-			<div class="content-block__cols cols  is--portfolio  filter-2018  filter-fed">
+			<div class="content-block__cols cols  is--portfolio  filter-2018  filter-fed" data-item>
 	<a href="/ask.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/ask-preview.jpg" alt="Сайт партнера продаж застройщика «АСК»" />
@@ -240,7 +270,7 @@
 		</div>
 	</a>
 </div>		
-			<div class="content-block__cols cols  is--portfolio  filter-2018  filter-dd  filter-old">
+			<div class="content-block__cols cols  is--portfolio  filter-2018  filter-dd  filter-old" data-item>
 	<a href="/vposad.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/vposad-preview.jpg" alt="Сайт духовно-православного центра «Вятский Посад»" />
@@ -255,7 +285,7 @@
 		</div>
 	</a>
 </div>
-			<div class="content-block__cols cols  is--portfolio  filter-2018  filter-dd  filter-comp">
+			<div class="content-block__cols cols  is--portfolio  filter-2018  filter-dd  filter-comp" data-item>
 	<a href="/gsinv.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/gsinv-preview.jpg" alt="Корпоративный сайт для строительной компании «ЖИЛСТРОЙ-Инвест»" />
@@ -270,7 +300,7 @@
 		</div>
 	</a>
 </div>			
-			<div class="content-block__cols cols  is--portfolio  filter-2018  filter-dd">
+			<div class="content-block__cols cols  is--portfolio  filter-2018  filter-dd" data-item>
 	<a href="/ivorywed.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/ivorywed-preview.jpg" alt="Сайт для cвадебного салона" />
@@ -285,7 +315,7 @@
 		</div>
 	</a>
 </div>		
-			<div class="content-block__cols cols  is--portfolio  filter-2018  filter-dd">
+			<div class="content-block__cols cols  is--portfolio  filter-2018  filter-dd" data-item>
 	<a href="/pool.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/pool-preview.jpg" alt="Промо сайт для компании «Бюро бассейнов»" />
@@ -300,7 +330,7 @@
 		</div>
 	</a>
 </div>		
-			<div class="content-block__cols cols  is--portfolio  filter-2018  filter-dd  filter-comp">
+			<div class="content-block__cols cols  is--portfolio  filter-2018  filter-dd  filter-comp" data-item>
 	<a href="/logistica.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/logistica-preview.jpg" alt="Корпоративный сайт для транспортной компании «Терра Логистика»" />
@@ -315,7 +345,7 @@
 		</div>
 	</a>
 </div>		
-			<div class="content-block__cols cols  is--portfolio  filter-2018  filter-dd  filter-comp">
+			<div class="content-block__cols cols  is--portfolio  filter-2018  filter-dd  filter-comp" data-item>
 	<a href="/esbvolga.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/esbvolga-preview.jpg" alt="Корпоративный сайт для компании «Энергосбыт Волга»" />
@@ -330,7 +360,7 @@
 		</div>
 	</a>
 </div>		
-			<div class="content-block__cols cols  is--portfolio  filter-2018  filter-dd  filter-comp">
+			<div class="content-block__cols cols  is--portfolio  filter-2018  filter-dd  filter-comp" data-item>
 	<a href="/garantorel.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/garantorel-preview.jpg" alt="Сайт для юридического центра Гарант" />
@@ -345,7 +375,7 @@
 		</div>
 	</a>
 </div>		
-			<div class="content-block__cols cols  is--portfolio  filter-2018  filter-dd">
+			<div class="content-block__cols cols  is--portfolio  filter-2018  filter-dd" data-item>
 	<a href="/oknastroy.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/oknastroy-preview.jpg" alt="Корпоративный сайт компании «ОкнаСтрой»" />
@@ -360,7 +390,7 @@
 		</div>
 	</a>
 </div>		
-			<div class="content-block__cols cols  is--portfolio  filter-2018  filter-dd">
+			<div class="content-block__cols cols  is--portfolio  filter-2018  filter-dd" data-item>
 	<a href="/aegospotami.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/aegospotami-preview.jpg" alt="Сайт для коллекционеров метеоритов" />
@@ -375,7 +405,7 @@
 		</div>
 	</a>
 </div>		
-			<div class="content-block__cols cols  is--portfolio  filter-2018  filter-dd">
+			<div class="content-block__cols cols  is--portfolio  filter-2018  filter-dd" data-item>
 	<a href="/orelsau.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/orelsau-preview.jpg" alt="Сайт ФГБОУ ВО Орловский ГАУ" />
@@ -390,7 +420,7 @@
 		</div>
 	</a>
 </div>		
-			<div class="content-block__cols cols  is--portfolio  filter-2018  filter-dd">
+			<div class="content-block__cols cols  is--portfolio  filter-2018  filter-dd" data-item>
 	<a href="/igeba.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/igeba-preview.jpg" alt="Промо сайты для компании «ИнтерКлин»" />
@@ -405,7 +435,7 @@
 		</div>
 	</a>
 </div>			
-			<div class="content-block__cols cols  is--portfolio  filter-2018  filter-old  filter-dd">
+			<div class="content-block__cols cols  is--portfolio  filter-2018  filter-old  filter-dd" data-item>
 	<a href="/korsun.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/korsun-preview.jpg" alt="Сайт для «Корсунская пустынь»" />
@@ -420,7 +450,7 @@
 		</div>
 	</a>
 </div>			
-			<div class="content-block__cols cols  is--portfolio  filter-2018  filter-dd  filter-comp">
+			<div class="content-block__cols cols  is--portfolio  filter-2018  filter-dd  filter-comp" data-item>
 	<a href="/interrao.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/interrao-preview.jpg" alt="Корпоративный сайт компании «Орловский&nbsp;энергосбыт»" />
@@ -435,7 +465,7 @@
 		</div>
 	</a>
 </div>				
-			<div class="content-block__cols cols  is--portfolio  filter-2018  filter-dd  filter-shop">
+			<div class="content-block__cols cols  is--portfolio  filter-2018  filter-dd  filter-shop" data-item>
 	<a href="/superpizzaplus.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/superpizzaplus-preview.jpg" alt="Сайт пиццерии «Супер Пицца»" />
@@ -451,7 +481,7 @@
 	</a>
 </div>		
 			<!-- 2017  -->
-			<div class="content-block__cols cols  is--portfolio  filter-2017  filter-dd  filter-shop">
+			<div class="content-block__cols cols  is--portfolio  filter-2017  filter-dd  filter-shop" data-item>
 	<a href="/orion.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/orion-preview.jpg" alt="Сайт типографии Орион-Принт" />
@@ -466,7 +496,7 @@
 		</div>
 	</a>
 </div>				
-			<div class="content-block__cols cols  is--portfolio  filter-2017  filter-dd">
+			<div class="content-block__cols cols  is--portfolio  filter-2017  filter-dd" data-item>
 	<a href="/albina.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/albina-preview.jpg" alt="Сайт центра красоты Альбины Самойловой" />
@@ -482,7 +512,7 @@
 	</a>
 </div>				
 							
-			<div class="content-block__cols cols  is--portfolio  filter-2017  filter-dd  filter-comp">
+			<div class="content-block__cols cols  is--portfolio  filter-2017  filter-dd  filter-comp" data-item>
 	<a href="/oblkadastr.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/oblkadastr-preview.jpg" alt="Корпоративный сайт для Областного кадастрового агентства" />
@@ -497,7 +527,7 @@
 		</div>
 	</a>
 </div>				
-			<div class="content-block__cols cols  is--portfolio  filter-2017  filter-dd  filter-comp">
+			<div class="content-block__cols cols  is--portfolio  filter-2017  filter-dd  filter-comp" data-item>
 	<a href="/orelstroy.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/orelstroy-preview.jpg" alt="Корпоративный сайт для строительной компании «Орёлстрой»" />
@@ -513,7 +543,7 @@
 	</a>
 </div>					
 								
-			<div class="content-block__cols cols  is--portfolio  filter-2017  filter-dd  filter-comp">
+			<div class="content-block__cols cols  is--portfolio  filter-2017  filter-dd  filter-comp" data-item>
 	<a href="/zenit-orel.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/zenit-orel-preview.jpg" alt="Корпоративный сайт для строительной компании «Зенит»" />
@@ -529,7 +559,7 @@
 	</a>
 </div>
 				
-			<div class="content-block__cols cols  is--portfolio  filter-2017  filter-dd">
+			<div class="content-block__cols cols  is--portfolio  filter-2017  filter-dd" data-item>
 	<a href="/msk76.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/msk76-preview.jpg" alt="Сайт ЖК «Московсикий» компании «Зенит»" />
@@ -546,7 +576,7 @@
 </div>
 			<!-- 2016 -->
 			
-			<div class="content-block__cols cols  is--portfolio  filter-2016  filter-dd">
+			<div class="content-block__cols cols  is--portfolio  filter-2016  filter-dd" data-item>
 	<a href="/intdez.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/intdez-preview.jpg" alt="Сайт cтудии дизайна Ирины Корчевой" />
@@ -563,7 +593,7 @@
 </div>
 			
 			
-			<div class="content-block__cols cols  is--portfolio  filter-2016  filter-dd  filter-shop">
+			<div class="content-block__cols cols  is--portfolio  filter-2016  filter-dd  filter-shop" data-item>
 	<a href="/encomservice.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/encomservice-preview.jpg" alt="Сайт сервисного цента «Энком Сервис»" />
@@ -578,7 +608,7 @@
 		</div>
 	</a>
 </div>
-			<div class="content-block__cols cols  is--portfolio  filter-2016  filter-dd  filter-shop">
+			<div class="content-block__cols cols  is--portfolio  filter-2016  filter-dd  filter-shop" data-item>
 	<a href="/enerfit.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/enerfit-preview.jpg" alt="Интернет-магазин энерфит.рф" />
@@ -593,7 +623,7 @@
 		</div>
 	</a>
 </div>
-			<div class="content-block__cols cols  is--portfolio  filter-2016  filter-dd">
+			<div class="content-block__cols cols  is--portfolio  filter-2016  filter-dd" data-item>
 	<a href="/star.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/star-preview.jpg" alt="Фирменный сайт Звёздный-Тамбов.рф" />
@@ -609,7 +639,7 @@
 	</a>
 </div>
 			
-			<div class="content-block__cols cols  is--portfolio  filter-2016  filter-dd">
+			<div class="content-block__cols cols  is--portfolio  filter-2016  filter-dd" data-item>
 	<a href="/rkorma.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/rkorma-preview.jpg" alt="Сайт для компании «Регион Корма»" />
@@ -625,7 +655,7 @@
 	</a>
 </div>
 			<!-- 2015 -->
-			<div class="content-block__cols cols  is--portfolio  filter-2015  filter-ic">
+			<div class="content-block__cols cols  is--portfolio  filter-2015  filter-ic" data-item>
 	<a href="/perfect.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/perfect-preview.jpg" alt="Сайт для чешского агентства свадеб" />
@@ -640,7 +670,7 @@
 		</div>
 	</a>
 </div>
-			<div class="content-block__cols cols  is--portfolio  filter-2015  filter-ic">
+			<div class="content-block__cols cols  is--portfolio  filter-2015  filter-ic" data-item>
 	<a href="/infoorel.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/infoorel-preview.jpg" alt="Сайт городского портала infoorel.ru" />
@@ -655,7 +685,7 @@
 		</div>
 	</a>
 </div>
-			<div class="content-block__cols cols  is--portfolio  filter-2015  filter-ic">
+			<div class="content-block__cols cols  is--portfolio  filter-2015  filter-ic" data-item>
 	<a href="/info-city.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/info-city-preview.jpg" alt="Сайт web-студии info-city" />
@@ -670,7 +700,7 @@
 		</div>
 	</a>
 </div>
-			<div class="content-block__cols cols  is--portfolio  filter-2015  filter-ic  filter-shop">
+			<div class="content-block__cols cols  is--portfolio  filter-2015  filter-ic  filter-shop" data-item>
 	<a href="/semena.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/semena-preview.jpg" alt="Интернет-магазин семян" />
@@ -685,7 +715,7 @@
 		</div>
 	</a>
 </div>
-			<div class="content-block__cols cols  is--portfolio  filter-2015  filter-ic">
+			<div class="content-block__cols cols  is--portfolio  filter-2015  filter-ic" data-item>
 	<a href="/domservis57.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/domservis57-preview.jpg" alt="Сайт для УК «Домсервис»" />
@@ -700,7 +730,7 @@
 		</div>
 	</a>
 </div>
-			<div class="content-block__cols cols  is--portfolio  filter-2015 filter-old  filter-ic">
+			<div class="content-block__cols cols  is--portfolio  filter-2015 filter-old  filter-ic" data-item>
 	<a href="/novieokna.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/novieokna-preview.jpg" alt="Сайт для магазина ПВХ окон «Новые Окна»" />
@@ -715,7 +745,7 @@
 		</div>
 	</a>
 </div>
-			<div class="content-block__cols cols  is--portfolio  filter-2015  filter-ic filter-comp">
+			<div class="content-block__cols cols  is--portfolio  filter-2015  filter-ic filter-comp" data-item>
 	<a href="/rdservis.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/rdservis-preview.jpg" alt="Корпоративный сайт для компании «Ремдорсервис»" />
@@ -731,7 +761,7 @@
 	</a>
 </div>
 			<!-- 2014 -->
-			<div class="content-block__cols cols  is--portfolio  filter-2014  filter-old  filter-ic">
+			<div class="content-block__cols cols  is--portfolio  filter-2014  filter-old  filter-ic" data-item>
 	<a href="/orelkino.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/orelkino-preview.jpg" alt="Сайт для кинотеатра «Октябрь»" />
@@ -746,7 +776,7 @@
 		</div>
 	</a>
 </div>
-			<div class="content-block__cols cols  is--portfolio  filter-2014  filter-ic  filter-shop  filter-comp">
+			<div class="content-block__cols cols  is--portfolio  filter-2014  filter-ic  filter-shop  filter-comp" data-item>
 	<a href="/chydopir.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/chydopir-preview.jpg" alt="Корпоративный сайт для сети ресторанов «Чудо-Пир»" />
@@ -761,7 +791,7 @@
 		</div>
 	</a>
 </div>
-			<div class="content-block__cols cols  is--portfolio  filter-2014  filter-ic  filter-comp">
+			<div class="content-block__cols cols  is--portfolio  filter-2014  filter-ic  filter-comp" data-item>
 	<a href="/dormash.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/dormash-preview.jpg" alt="Корпоративный сайт для завода «Дормаш»" />
@@ -776,7 +806,7 @@
 		</div>
 	</a>
 </div>
-			<div class="content-block__cols cols  is--portfolio  filter-2014  filter-old  filter-ic  filter-shop">
+			<div class="content-block__cols cols  is--portfolio  filter-2014  filter-old  filter-ic  filter-shop" data-item>
 	<a href="/autoorel.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/autoorel-preview.jpg" alt="Интернет-магазин запчастей Autoorel.ru" />
@@ -791,7 +821,7 @@
 		</div>
 	</a>
 </div>
-			<div class="content-block__cols cols  is--portfolio  filter-2014  filter-ic  filter-shop">
+			<div class="content-block__cols cols  is--portfolio  filter-2014  filter-ic  filter-shop" data-item>
 	<a href="/oltadi.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/oltadi-preview.jpg" alt="Интернет-магазин модной одежды «Oltadi Fashion»" />
@@ -806,7 +836,7 @@
 		</div>
 	</a>
 </div>
-			<div class="content-block__cols cols  is--portfolio  filter-2014  filter-old  filter-ic">
+			<div class="content-block__cols cols  is--portfolio  filter-2014  filter-old  filter-ic" data-item>
 	<a href="/slon.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/slon-preview.jpg" alt="Сайт для рекламного видеопроизводство «Синий слон»" />
@@ -821,7 +851,7 @@
 		</div>
 	</a>
 </div>
-			<div class="content-block__cols cols  is--portfolio  filter-2014  filter-old  filter-ic">
+			<div class="content-block__cols cols  is--portfolio  filter-2014  filter-old  filter-ic" data-item>
 	<a href="/altinbay.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/altinbay-preview.jpg" alt="Сайт для ресторана восточной кухни «Алтын Бай»" />
@@ -836,7 +866,7 @@
 		</div>
 	</a>
 </div>
-			<div class="content-block__cols cols  is--portfolio  filter-2014  filter-ic">
+			<div class="content-block__cols cols  is--portfolio  filter-2014  filter-ic" data-item>
 	<a href="/stroyproekt.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/stroyproekt-preview.jpg" alt="Сайт для проектной организации «Стройпроект»" />
@@ -851,7 +881,7 @@
 		</div>
 	</a>
 </div>
-			<div class="content-block__cols cols  is--portfolio  filter-2014  filter-old  filter-ic  filter-comp">
+			<div class="content-block__cols cols  is--portfolio  filter-2014  filter-old  filter-ic  filter-comp" data-item>
 	<a href="/zenit-orel-old.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/zenit-orel-old-preview.jpg" alt="Корпоративный сайт для строительной компании «Зенит»" />
@@ -867,7 +897,7 @@
 	</a>
 </div>
 			<!-- 2013 -->
-			<div class="content-block__cols cols  is--portfolio  filter-2013  filter-ic  filter-shop">
+			<div class="content-block__cols cols  is--portfolio  filter-2013  filter-ic  filter-shop" data-item>
 	<a href="/noskiorel.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/noskiorel-preview.jpg" alt="Интернет-магазин для торгового дома «Гамма»" />
@@ -882,7 +912,7 @@
 		</div>
 	</a>
 </div>
-			<div class="content-block__cols cols  is--portfolio  filter-2013  filter-ic  filter-old  filter-comp">
+			<div class="content-block__cols cols  is--portfolio  filter-2013  filter-ic  filter-old  filter-comp" data-item>
 	<a href="/enich.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/enich-preview.jpg" alt="Корпоративный сайт для компании «Енич»" />
@@ -897,7 +927,7 @@
 		</div>
 	</a>
 </div>
-			<div class="content-block__cols cols  is--portfolio  filter-2013  filter-old  filter-ic">
+			<div class="content-block__cols cols  is--portfolio  filter-2013  filter-old  filter-ic" data-item>
 	<a href="/olympicschool.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/olympicschool-preview.jpg" alt="Информационный портал для СДЮСШОР «Олимпиец»" />
@@ -912,7 +942,7 @@
 		</div>
 	</a>
 </div>
-			<div class="content-block__cols cols  is--portfolio  filter-2013  filter-ic">
+			<div class="content-block__cols cols  is--portfolio  filter-2013  filter-ic" data-item>
 	<a href="/school36.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/school36-preview.jpg" alt="Сайт для СОШ № 36" />
@@ -927,7 +957,7 @@
 		</div>
 	</a>
 </div>
-			<div class="content-block__cols cols  is--portfolio  filter-2013  filter-ic">
+			<div class="content-block__cols cols  is--portfolio  filter-2013  filter-ic" data-item>
 	<a href="/kadastr57.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/kadastr57-preview.jpg" alt="Сайт для компании «Объектив Лэнд»" />
@@ -942,7 +972,7 @@
 		</div>
 	</a>
 </div>
-			<div class="content-block__cols cols  is--portfolio  filter-2013  filter-old  filter-ic">
+			<div class="content-block__cols cols  is--portfolio  filter-2013  filter-old  filter-ic" data-item>
 	<a href="/info-city-old.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/info-city-old-preview.jpg" alt="Сайт web-студии info-city" />
@@ -958,7 +988,7 @@
 	</a>
 </div>
 			<!-- 2012 -->
-			<div class="content-block__cols cols  is--portfolio  filter-2012  filter-old  filter-ic">
+			<div class="content-block__cols cols  is--portfolio  filter-2012  filter-old  filter-ic" data-item>
 	<a href="/rosto.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/rosto-preview.jpg" alt="Сайт для учебного центра ДОСААФ России" />
@@ -973,7 +1003,7 @@
 		</div>
 	</a>
 </div>
-			<div class="content-block__cols cols  is--portfolio  filter-2012  filter-old  filter-ic">
+			<div class="content-block__cols cols  is--portfolio  filter-2012  filter-old  filter-ic" data-item>
 	<a href="/classicstom.html" class="card__item  is--portfolio">	
 		<div class="card__preview  is--portfolio">
 			<img src="/img/portfolio/classicstom-preview.jpg" alt="Сайт для стоматологической клиники «Классик»" />

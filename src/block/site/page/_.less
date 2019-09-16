@@ -156,6 +156,9 @@
 			&.is--btn{
 				position: relative;
 				text-align: center;
+				display: flex;
+				justify-content: center;
+				align-items: center;
 			}
 			@media @media-point-xs {
 				.makeCols(6, 12);
@@ -169,7 +172,12 @@
 			@media @media-point-screen-lg {
 				.makeCols(3, 12);
 			}
-
+			&.is--hidden{
+				display: none;
+			}
+			&.is--visible{
+				display: block;
+			}
 		}
 		&.is--portfolio-card{
 			@media @media-point-xxs {

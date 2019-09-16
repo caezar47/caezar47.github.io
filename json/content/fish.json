@@ -73,6 +73,27 @@
 	},	
 	"portfolio":{
 		"2019":{
+			"novostroy":{
+				"link":"/novostroy.html",
+				"name":"База новостроек «Федеральный оператор новостройки»",
+				"desc1":"Главная страница",
+				"site":"http://novostroy.group/",
+				"site":"#",
+				"preview":"novostroy-preview.jpg",
+				"maket":"novostroy-maket.jpg",
+				"github":"#",
+				"filter":"filter-2019  filter-fed"
+			},	
+			"fedexpert":{
+				"link":"/fedexpert.html",
+				"name":"Корпоративный сайт для союза «Федеральное партнёрство экспертов недвижимости»",
+				"desc1":"Главная страница",
+				"site":"https://fedexpert.info/",
+				"preview":"fedexpert-preview.jpg",
+				"maket":"fedexpert-maket.jpg",
+				"github":"#",
+				"filter":"filter-2019  filter-fed"
+			},	
 			"fedoperator":{
 				"link":"/fedoperator.html",
 				"name":"Корпоративный сайт для компании «Федоператор»",
@@ -81,7 +102,7 @@
 				"preview":"fedoperator-preview.jpg",
 				"maket":"fedoperator-maket.jpg",
 				"github":"#",
-				"filter":"filter-2019  filter-dev  filter-fed"
+				"filter":"filter-2019  filter-fed"
 			},	
 			"amadeus":{
 				"link":"/amadeus.html",
@@ -90,7 +111,7 @@
 				"preview":"amadeus-preview.jpg",
 				"maket":"amadeus-maket.jpg",
 				"github":"#",
-				"filter":"filter-2019  filter-site"
+				"filter":"filter-2019  filter-site  filter-dev  filter-shop"
 			}
 		},
 		"2018":{

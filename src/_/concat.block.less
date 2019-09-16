@@ -156,6 +156,9 @@
 			&.is--btn{
 				position: relative;
 				text-align: center;
+				display: flex;
+				justify-content: center;
+				align-items: center;
 			}
 			@media @media-point-xs {
 				.makeCols(6, 12);
@@ -169,7 +172,12 @@
 			@media @media-point-screen-lg {
 				.makeCols(3, 12);
 			}
-
+			&.is--hidden{
+				display: none;
+			}
+			&.is--visible{
+				display: block;
+			}
 		}
 		&.is--portfolio-card{
 			@media @media-point-xxs {
@@ -506,32 +514,19 @@
 		@media @media-point-screen {
 			letter-spacing: 0.24vw;
 		}
+		&.is--portfolio {
+			padding: 20px; 
+			@media @media-point-screen {
+			    letter-spacing: .3vw;
+			    padding: 24px 2vw;
+			}
+		}
 		.card-item__card:hover &,
 		.card-item__card.is--active &,
 		&:hover{			
 			color: @btn_l_hover_color;
 			//background-color: @btn_l_hover_bg_color;
 			//border-color: @btn_l_hover_border_color;		
-		}
-		&.is--portfolio{
-			padding: 24px 20px;
-			white-space: nowrap;	
-			@media @media-point-xs {
-				position: absolute;
-				top: 55%;
-				left: 50%;
-				transform: translate(-50%, -50%);			
-			}
-			@media @media-point-notsmart {
-				position: absolute;
-				top: 55%;
-				left: 50%;
-				transform: translate(-50%, -50%);				
-			}
-			@media @media-point-screen {
-				letter-spacing: .3vw;
-				padding: 24px 2vw;
-			}
 		}
 	}
 	&line{
@@ -2632,7 +2627,6 @@
 					&::before{
 						background-color: @white;
 					}
-
 				}
 			}
 		}
