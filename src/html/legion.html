@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ru-RU"> 
+	<head>
+		[[azbntple 
+			tpl="/src/block/site/default/head/.html" 
+			title="{{portfolio.2020.legion.name}}"
+			description=" "
+		]] 		
+	</head>
+	<body> 
+		[[azbntple 
+			tpl="/src/block/site/default/navbar/include-second.html"
+		]]
+		[[azbntple  
+			tpl="/src/block/site/page/panel-portfolio-landing.html"
+			content_prefix="content-block__"
+			content_mod="is--portfolio-card"
+			block_heading_mod="is--page-heading"
+			block_heading="{{portfolio.2020.legion.name}}"  
+			block_maket="<img src='{{url-path-img}}/portfolio/legion-maket.jpg' alt='' class='img-responsive'>"
+			block_site="{{portfolio.2020.legion.site}}"
+			block_github="{{portfolio.2020.legion.github}}"
+			block_studio_logo="hidden"
+			block_studio_link="{{info.experience.fed.link}}"
+		]]
+		[[azbntple 
+			tpl="/src/block/site/default/footer/.html"
+			footer_prefix="footer__" 
+			block_id="index-footer"
+		]]		
+		[[azbntple tpl="/src/block/site/default/script/script.html" ]]
+	</body>
+</html>

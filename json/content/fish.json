@@ -72,6 +72,28 @@
 		"portfolio":"/portfolio.html"
 	},	
 	"portfolio":{
+		"2020":{
+			"2sharp":{
+				"link":"/2sharp.html",
+				"name":"Корпоративный сайт для «2SHARP creative brand agency»",
+				"desc1":"Главная страница",
+				"site":"http://www.2sharp.ru/",
+				"preview":"2sharp-preview.jpg",
+				"maket":"2sharp-maket.jpg",
+				"github":"#",
+				"filter":"filter-2020  filter-comp"
+			},
+			"legion":{
+				"link":"/legion.html",
+				"name":"Корпоративный сайт для «Группа компаний Легион»",
+				"desc1":"Главная страница",
+				"site":"http://legion.ooo/",
+				"preview":"legion-preview.jpg",
+				"maket":"legion-maket.jpg",
+				"github":"#",
+				"filter":"filter-2020  filter-comp"
+			}
+		},
 		"2019":{
 			"novostroy":{
 				"link":"/novostroy.html",
